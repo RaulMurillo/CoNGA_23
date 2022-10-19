@@ -1,0 +1,21 @@
+# Testbench files
+test.input
+output_test.txt
+
+# Modelism files
+work/
+transcript
+*.wlf
+*.wdb
+*.swp
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.exe
+build/
+
+# Python virtual envs
+venv/
