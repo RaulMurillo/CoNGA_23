@@ -31,12 +31,13 @@ do
         fi
         echo ""
         echo ""
+        echo "$PWD"
         echo "******** item: ${bw} bits - ${dir}"
         echo ""
         echo ""
         dc_shell-t -f s1
         #ls *.vhdl
-        cd ../..
+        cd ../../../..
 done
 done
 done
