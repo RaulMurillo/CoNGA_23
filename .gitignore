@@ -1,3 +1,5 @@
+.vscode/
+
 # Testbench files
 test.input
 output_test.txt

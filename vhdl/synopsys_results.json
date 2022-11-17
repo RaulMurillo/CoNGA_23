@@ -1,0 +1,1352 @@
+[
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 7468.305652,
+        "Power": 14.1893,
+        "Delay": 3.46,
+        "Energy": 49094.978,
+        "ADP": 25840.3375559
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 50,
+        "Area": 7544.980847,
+        "Power": 14.7204,
+        "Delay": 3.53,
+        "Energy": 51963.012,
+        "ADP": 26633.7823899
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 100,
+        "Area": 7544.980847,
+        "Power": 14.7204,
+        "Delay": 3.53,
+        "Energy": 51963.012,
+        "ADP": 26633.7823899
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 150,
+        "Area": 7544.980847,
+        "Power": 14.7169,
+        "Delay": 3.53,
+        "Energy": 51950.657,
+        "ADP": 26633.7823899
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 7544.980847,
+        "Power": 14.7186,
+        "Delay": 3.53,
+        "Energy": 51956.658,
+        "ADP": 26633.7823899
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 7544.980847,
+        "Power": 14.729,
+        "Delay": 3.53,
+        "Energy": 51993.37,
+        "ADP": 26633.7823899
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 7555.329648,
+        "Power": 13.9037,
+        "Delay": 3.33,
+        "Energy": 46299.321,
+        "ADP": 25159.2477278
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 8145.446484,
+        "Power": 15.1352,
+        "Delay": 2.85,
+        "Energy": 43135.32,
+        "ADP": 23214.5224794
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 8322.316908,
+        "Power": 15.3901,
+        "Delay": 2.5,
+        "Energy": 38475.25,
+        "ADP": 20805.79227
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 9046.968161,
+        "Power": 17.3583,
+        "Delay": 2.22,
+        "Energy": 38535.426,
+        "ADP": 20084.2693174
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 10436.05935,
+        "Power": 21.0143,
+        "Delay": 2.0,
+        "Energy": 42028.6,
+        "ADP": 20872.1187
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 11840.438565,
+        "Power": 24.7435,
+        "Delay": 1.82,
+        "Energy": 45033.17,
+        "ADP": 21549.5981883
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 13266.691355,
+        "Power": 27.2299,
+        "Delay": 1.7,
+        "Energy": 46290.83,
+        "ADP": 22553.3753035
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 12620.596967,
+        "Power": 25.4849,
+        "Delay": 1.72,
+        "Energy": 43834.028,
+        "ADP": 21707.4267832
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 12552.388968,
+        "Power": 25.5347,
+        "Delay": 1.69,
+        "Energy": 43153.643,
+        "ADP": 21213.5373559
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 12621.537777,
+        "Power": 25.42,
+        "Delay": 1.73,
+        "Energy": 43976.6,
+        "ADP": 21835.2603542
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 12427.968171,
+        "Power": 25.0561,
+        "Delay": 1.72,
+        "Energy": 43096.492,
+        "ADP": 21376.1052541
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 12142.43538,
+        "Power": 24.1923,
+        "Delay": 1.71,
+        "Energy": 41368.833,
+        "ADP": 20763.5644998
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 12693.273772,
+        "Power": 25.5597,
+        "Delay": 1.71,
+        "Energy": 43707.087,
+        "ADP": 21705.4981501
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 12839.803365,
+        "Power": 26.1712,
+        "Delay": 1.71,
+        "Energy": 44752.752,
+        "ADP": 21956.0637542
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 13034.078558,
+        "Power": 26.4982,
+        "Delay": 1.69,
+        "Energy": 44781.958,
+        "ADP": 22027.592763
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 12787.588978,
+        "Power": 25.801,
+        "Delay": 1.7,
+        "Energy": 43861.7,
+        "ADP": 21738.9012626
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 1100,
+        "Area": 13167.436956,
+        "Power": 26.8502,
+        "Delay": 1.7,
+        "Energy": 45645.34,
+        "ADP": 22384.6428252
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 1150,
+        "Area": 12127.61777,
+        "Power": 24.2415,
+        "Delay": 1.73,
+        "Energy": 41937.795,
+        "ADP": 20980.7787421
+    },
+    {
+        "Design": "exact_mul",
+        "Bits": 32,
+        "Freq.": 1200,
+        "Area": 12880.963378,
+        "Power": 26.1512,
+        "Delay": 1.73,
+        "Energy": 45241.576,
+        "ADP": 22284.0666439
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 10349.740784,
+        "Power": 25.7478,
+        "Delay": 27.61,
+        "Energy": 710896.758,
+        "ADP": 285756.343046
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 50,
+        "Area": 12196.060889,
+        "Power": 30.849,
+        "Delay": 20.0,
+        "Energy": 616980.0,
+        "ADP": 243921.21778
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 100,
+        "Area": 17417.73608,
+        "Power": 42.3292,
+        "Delay": 8.59,
+        "Energy": 363607.828,
+        "ADP": 149618.352927
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 150,
+        "Area": 18657.475294,
+        "Power": 38.8281,
+        "Delay": 6.66,
+        "Energy": 258595.146,
+        "ADP": 124258.785458
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 26576.659447,
+        "Power": 63.2516,
+        "Delay": 5.15,
+        "Energy": 325745.74,
+        "ADP": 136869.796152
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 25147.349027,
+        "Power": 59.1322,
+        "Delay": 5.26,
+        "Energy": 311035.372,
+        "ADP": 132275.055882
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 23722.9778,
+        "Power": 56.4873,
+        "Delay": 5.4,
+        "Energy": 305031.42,
+        "ADP": 128104.08012
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 23840.577806,
+        "Power": 56.25,
+        "Delay": 5.33,
+        "Energy": 299812.5,
+        "ADP": 127070.279706
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 24391.181003,
+        "Power": 57.6709,
+        "Delay": 5.35,
+        "Energy": 308539.315,
+        "ADP": 130492.818366
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 24017.91861,
+        "Power": 56.5216,
+        "Delay": 5.29,
+        "Energy": 298999.264,
+        "ADP": 127054.789447
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 24013.685013,
+        "Power": 57.0119,
+        "Delay": 5.37,
+        "Energy": 306153.903,
+        "ADP": 128953.48852
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 23838.931419,
+        "Power": 56.2411,
+        "Delay": 5.38,
+        "Energy": 302577.118,
+        "ADP": 128253.451034
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 23930.424208,
+        "Power": 56.3157,
+        "Delay": 5.43,
+        "Energy": 305794.251,
+        "ADP": 129942.203449
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 22996.209787,
+        "Power": 53.8104,
+        "Delay": 5.49,
+        "Energy": 295419.096,
+        "ADP": 126249.191731
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 23143.680186,
+        "Power": 53.7386,
+        "Delay": 5.46,
+        "Energy": 293412.756,
+        "ADP": 126364.493816
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 22761.950578,
+        "Power": 53.33,
+        "Delay": 5.54,
+        "Energy": 295448.2,
+        "ADP": 126101.206202
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 23476.017809,
+        "Power": 55.22,
+        "Delay": 5.5,
+        "Energy": 303710.0,
+        "ADP": 129118.09795
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 23217.29779,
+        "Power": 54.374,
+        "Delay": 5.45,
+        "Energy": 296338.3,
+        "ADP": 126534.272956
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 22912.713793,
+        "Power": 53.6235,
+        "Delay": 5.46,
+        "Energy": 292784.31,
+        "ADP": 125103.41731
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 23302.44019,
+        "Power": 54.5631,
+        "Delay": 5.43,
+        "Energy": 296277.633,
+        "ADP": 126532.250232
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 22853.208179,
+        "Power": 52.8579,
+        "Delay": 5.44,
+        "Energy": 287546.976,
+        "ADP": 124321.452494
+    },
+    {
+        "Design": "exact_div",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 32,
+        "Power": 32,
+        "Delay": 32,
+        "Energy": 1024000.0,
+        "ADP": 1024.0
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 8066.184019,
+        "Power": 15.7474,
+        "Delay": 13.84,
+        "Energy": 217944.016,
+        "ADP": 111635.986823
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 50,
+        "Area": 8038.900814,
+        "Power": 16.6224,
+        "Delay": 13.17,
+        "Energy": 218917.008,
+        "ADP": 105872.32372
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 100,
+        "Area": 8964.883252,
+        "Power": 17.7411,
+        "Delay": 10.0,
+        "Energy": 177411.0,
+        "ADP": 89648.83252
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 150,
+        "Area": 13460.966482,
+        "Power": 24.0539,
+        "Delay": 6.12,
+        "Energy": 147209.868,
+        "ADP": 82381.1148698
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 13667.707284,
+        "Power": 21.061,
+        "Delay": 5.0,
+        "Energy": 105305.0,
+        "ADP": 68338.53642
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 15543.427333,
+        "Power": 25.9404,
+        "Delay": 4.0,
+        "Energy": 103761.6,
+        "ADP": 62173.709332
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 17945.289786,
+        "Power": 32.2412,
+        "Delay": 3.47,
+        "Energy": 111876.964,
+        "ADP": 62270.1555574
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 17493.235389,
+        "Power": 31.3039,
+        "Delay": 3.5,
+        "Energy": 109563.65,
+        "ADP": 61226.3238615
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 17516.520184,
+        "Power": 31.1837,
+        "Delay": 3.47,
+        "Energy": 108207.439,
+        "ADP": 60782.3250385
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 17660.462587,
+        "Power": 31.6489,
+        "Delay": 3.58,
+        "Energy": 113303.062,
+        "ADP": 63224.4560615
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 17528.044989,
+        "Power": 31.0144,
+        "Delay": 3.52,
+        "Energy": 109170.688,
+        "ADP": 61698.7183613
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 17122.560176,
+        "Power": 30.4239,
+        "Delay": 3.58,
+        "Energy": 108917.562,
+        "ADP": 61298.7654301
+    },
+    {
+        "Design": "exact_sqrt",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 32,
+        "Power": 32,
+        "Delay": 32,
+        "Energy": 1024000.0,
+        "ADP": 1024.0
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 2207.587197,
+        "Power": 2.7904,
+        "Delay": 3.21,
+        "Energy": 8957.184,
+        "ADP": 7086.35490237
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 50,
+        "Area": 2210.879992,
+        "Power": 3.4421,
+        "Delay": 3.24,
+        "Energy": 11152.404,
+        "ADP": 7163.25117408
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 100,
+        "Area": 2210.879992,
+        "Power": 3.4421,
+        "Delay": 3.24,
+        "Energy": 11152.404,
+        "ADP": 7163.25117408
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 150,
+        "Area": 2210.879992,
+        "Power": 3.4424,
+        "Delay": 3.24,
+        "Energy": 11153.376,
+        "ADP": 7163.25117408
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 2210.879992,
+        "Power": 3.4424,
+        "Delay": 3.24,
+        "Energy": 11153.376,
+        "ADP": 7163.25117408
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 2210.879992,
+        "Power": 3.4386,
+        "Delay": 3.24,
+        "Energy": 11141.064,
+        "ADP": 7163.25117408
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 2210.879992,
+        "Power": 3.4405,
+        "Delay": 3.24,
+        "Energy": 11147.22,
+        "ADP": 7163.25117408
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 2239.339191,
+        "Power": 2.9209,
+        "Delay": 2.86,
+        "Energy": 8353.774,
+        "ADP": 6404.51008626
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 2367.287995,
+        "Power": 2.9108,
+        "Delay": 2.5,
+        "Energy": 7277.0,
+        "ADP": 5918.2199875
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 2370.580794,
+        "Power": 2.8905,
+        "Delay": 2.22,
+        "Energy": 6416.91,
+        "ADP": 5262.68936268
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 2462.308795,
+        "Power": 3.0277,
+        "Delay": 2.0,
+        "Energy": 6055.4,
+        "ADP": 4924.61759
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 2499.470396,
+        "Power": 3.039,
+        "Delay": 1.82,
+        "Energy": 5530.98,
+        "ADP": 4549.03612072
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 2638.473601,
+        "Power": 3.3197,
+        "Delay": 1.67,
+        "Energy": 5543.899,
+        "ADP": 4406.25091367
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 2907.777603,
+        "Power": 3.8723,
+        "Delay": 1.54,
+        "Energy": 5963.342,
+        "ADP": 4477.97750862
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 3407.812819,
+        "Power": 5.021,
+        "Delay": 1.43,
+        "Energy": 7180.03,
+        "ADP": 4873.17233117
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 2668.579199,
+        "Power": 3.3399,
+        "Delay": 1.33,
+        "Energy": 4442.067,
+        "ADP": 3549.21033467
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 2847.096008,
+        "Power": 3.5913,
+        "Delay": 1.25,
+        "Energy": 4489.125,
+        "ADP": 3558.87001
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 2937.177608,
+        "Power": 3.8354,
+        "Delay": 1.18,
+        "Energy": 4525.772,
+        "ADP": 3465.86957744
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 3048.897607,
+        "Power": 3.9584,
+        "Delay": 1.11,
+        "Energy": 4393.824,
+        "ADP": 3384.27634377
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 3725.097626,
+        "Power": 5.4134,
+        "Delay": 1.05,
+        "Energy": 5684.07,
+        "ADP": 3911.3525073
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 3731.683229,
+        "Power": 5.6281,
+        "Delay": 1.0,
+        "Energy": 5628.1,
+        "ADP": 3731.683229
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 4014.864036,
+        "Power": 6.1858,
+        "Delay": 0.95,
+        "Energy": 5876.51,
+        "ADP": 3814.1208342
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 1100,
+        "Area": 4197.379236,
+        "Power": 6.5187,
+        "Delay": 0.91,
+        "Energy": 5932.017,
+        "ADP": 3819.61510476
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 1150,
+        "Area": 4639.555249,
+        "Power": 7.5788,
+        "Delay": 0.87,
+        "Energy": 6593.556,
+        "ADP": 4036.41306663
+    },
+    {
+        "Design": "approx_mul",
+        "Bits": 32,
+        "Freq.": 1200,
+        "Area": 5354.563259,
+        "Power": 8.7805,
+        "Delay": 0.84,
+        "Energy": 7375.62,
+        "ADP": 4497.83313756
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 2230.636797,
+        "Power": 2.8163,
+        "Delay": 3.21,
+        "Energy": 9040.323,
+        "ADP": 7160.34411837
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 50,
+        "Area": 2233.929592,
+        "Power": 3.4699,
+        "Delay": 3.24,
+        "Energy": 11242.476,
+        "ADP": 7237.93187808
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 100,
+        "Area": 2233.929592,
+        "Power": 3.4699,
+        "Delay": 3.24,
+        "Energy": 11242.476,
+        "ADP": 7237.93187808
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 150,
+        "Area": 2233.929592,
+        "Power": 3.4702,
+        "Delay": 3.24,
+        "Energy": 11243.448,
+        "ADP": 7237.93187808
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 2233.929592,
+        "Power": 3.4702,
+        "Delay": 3.24,
+        "Energy": 11243.448,
+        "ADP": 7237.93187808
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 2233.929592,
+        "Power": 3.4668,
+        "Delay": 3.24,
+        "Energy": 11232.432,
+        "ADP": 7237.93187808
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 2233.929592,
+        "Power": 3.4666,
+        "Delay": 3.24,
+        "Energy": 11231.784,
+        "ADP": 7237.93187808
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 2264.270392,
+        "Power": 2.9328,
+        "Delay": 2.86,
+        "Energy": 8387.808,
+        "ADP": 6475.81332112
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 2379.988795,
+        "Power": 2.9585,
+        "Delay": 2.5,
+        "Energy": 7396.25,
+        "ADP": 5949.9719875
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 2387.044794,
+        "Power": 2.961,
+        "Delay": 2.22,
+        "Energy": 6573.42,
+        "ADP": 5299.23944268
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 2471.246394,
+        "Power": 3.0425,
+        "Delay": 2.0,
+        "Energy": 6085.0,
+        "ADP": 4942.492788
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 2575.439999,
+        "Power": 3.1682,
+        "Delay": 1.82,
+        "Energy": 5766.124,
+        "ADP": 4687.30079818
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 2857.680005,
+        "Power": 3.6897,
+        "Delay": 1.67,
+        "Energy": 6161.799,
+        "ADP": 4772.32560835
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 2887.550406,
+        "Power": 3.7708,
+        "Delay": 1.54,
+        "Energy": 5807.032,
+        "ADP": 4446.82762524
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 3100.171212,
+        "Power": 4.1987,
+        "Delay": 1.43,
+        "Energy": 6004.141,
+        "ADP": 4433.24483316
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 3300.091213,
+        "Power": 4.5763,
+        "Delay": 1.33,
+        "Energy": 6086.479,
+        "ADP": 4389.12131329
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 3645.129625,
+        "Power": 5.3473,
+        "Delay": 1.25,
+        "Energy": 6684.125,
+        "ADP": 4556.41203125
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 3262.694418,
+        "Power": 4.559,
+        "Delay": 1.18,
+        "Energy": 5379.62,
+        "ADP": 3849.97941324
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 3469.435218,
+        "Power": 4.9175,
+        "Delay": 1.11,
+        "Energy": 5458.425,
+        "ADP": 3851.07309198
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 3432.74402,
+        "Power": 4.7336,
+        "Delay": 1.05,
+        "Energy": 4970.28,
+        "ADP": 3604.381221
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 3917.020833,
+        "Power": 5.9254,
+        "Delay": 1.0,
+        "Energy": 5925.4,
+        "ADP": 3917.020833
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 3891.854436,
+        "Power": 5.9265,
+        "Delay": 0.95,
+        "Energy": 5630.175,
+        "ADP": 3697.2617142
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 1100,
+        "Area": 4395.652844,
+        "Power": 6.891,
+        "Delay": 0.91,
+        "Energy": 6270.81,
+        "ADP": 4000.04408804
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 1150,
+        "Area": 4512.547244,
+        "Power": 7.078,
+        "Delay": 0.87,
+        "Energy": 6157.86,
+        "ADP": 3925.91610228
+    },
+    {
+        "Design": "approx_div",
+        "Bits": 32,
+        "Freq.": 1200,
+        "Area": 5091.609655,
+        "Power": 8.342,
+        "Delay": 0.86,
+        "Energy": 7174.12,
+        "ADP": 4378.7843033
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 0,
+        "Area": 1396.382396,
+        "Power": 1.4718,
+        "Delay": 2.25,
+        "Energy": 3311.55,
+        "ADP": 3141.860391
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 50,
+        "Area": 1406.731193,
+        "Power": 1.901,
+        "Delay": 2.33,
+        "Energy": 4429.33,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 100,
+        "Area": 1406.731193,
+        "Power": 1.901,
+        "Delay": 2.33,
+        "Energy": 4429.33,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 150,
+        "Area": 1406.731193,
+        "Power": 1.9017,
+        "Delay": 2.33,
+        "Energy": 4430.961,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 200,
+        "Area": 1406.731193,
+        "Power": 1.9007,
+        "Delay": 2.33,
+        "Energy": 4428.631,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 250,
+        "Area": 1406.731193,
+        "Power": 1.901,
+        "Delay": 2.33,
+        "Energy": 4429.33,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 300,
+        "Area": 1406.731193,
+        "Power": 1.901,
+        "Delay": 2.33,
+        "Energy": 4429.33,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 350,
+        "Area": 1406.731193,
+        "Power": 1.901,
+        "Delay": 2.33,
+        "Energy": 4429.33,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 400,
+        "Area": 1406.731193,
+        "Power": 1.901,
+        "Delay": 2.33,
+        "Energy": 4429.33,
+        "ADP": 3277.68367969
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 450,
+        "Area": 1406.260793,
+        "Power": 1.6799,
+        "Delay": 2.12,
+        "Energy": 3561.388,
+        "ADP": 2981.27288116
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 500,
+        "Area": 1415.198393,
+        "Power": 1.6072,
+        "Delay": 2.0,
+        "Energy": 3214.4,
+        "ADP": 2830.396786
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 550,
+        "Area": 1462.708794,
+        "Power": 1.6556,
+        "Delay": 1.82,
+        "Energy": 3013.192,
+        "ADP": 2662.13000508
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 600,
+        "Area": 1450.243194,
+        "Power": 1.6066,
+        "Delay": 1.66,
+        "Energy": 2666.956,
+        "ADP": 2407.40370204
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 650,
+        "Area": 1486.463996,
+        "Power": 1.6544,
+        "Delay": 1.54,
+        "Energy": 2547.776,
+        "ADP": 2289.15455384
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 700,
+        "Area": 1549.262397,
+        "Power": 1.7209,
+        "Delay": 1.43,
+        "Energy": 2460.887,
+        "ADP": 2215.44522771
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 750,
+        "Area": 1612.766396,
+        "Power": 1.8654,
+        "Delay": 1.33,
+        "Energy": 2480.982,
+        "ADP": 2144.97930668
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 800,
+        "Area": 1729.190402,
+        "Power": 2.1574,
+        "Delay": 1.25,
+        "Energy": 2696.75,
+        "ADP": 2161.4880025
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 850,
+        "Area": 1952.630403,
+        "Power": 2.4121,
+        "Delay": 1.18,
+        "Energy": 2846.278,
+        "ADP": 2304.10387554
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 900,
+        "Area": 1783.992002,
+        "Power": 2.0174,
+        "Delay": 1.11,
+        "Energy": 2239.314,
+        "ADP": 1980.23112222
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 950,
+        "Area": 1668.0384,
+        "Power": 1.8607,
+        "Delay": 1.05,
+        "Energy": 1953.735,
+        "ADP": 1751.44032
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 1000,
+        "Area": 2098.924808,
+        "Power": 2.6681,
+        "Delay": 1.0,
+        "Energy": 2668.1,
+        "ADP": 2098.924808
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 1050,
+        "Area": 2050.238412,
+        "Power": 2.6979,
+        "Delay": 0.95,
+        "Energy": 2563.005,
+        "ADP": 1947.7264914
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 1100,
+        "Area": 2114.918409,
+        "Power": 2.7186,
+        "Delay": 0.91,
+        "Energy": 2473.926,
+        "ADP": 1924.57575219
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 1150,
+        "Area": 2060.116811,
+        "Power": 2.6459,
+        "Delay": 0.87,
+        "Energy": 2301.933,
+        "ADP": 1792.30162557
+    },
+    {
+        "Design": "approx_sqrt",
+        "Bits": 32,
+        "Freq.": 1200,
+        "Area": 2360.702417,
+        "Power": 3.0872,
+        "Delay": 0.83,
+        "Energy": 2562.376,
+        "ADP": 1959.38300611
+    }
+]
