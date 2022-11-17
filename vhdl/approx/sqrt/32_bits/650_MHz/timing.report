@@ -1,0 +1,159 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ApproxPositSqrt
+Version: O-2018.06-SP4
+Date   : Thu Nov 17 02:19:35 2022
+****************************************
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+  Startpoint: X[31] (input port)
+  Endpoint: R[30] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ApproxPositSqrt    ZeroWireload          tcbn45gsbwp12tml
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  X[31] (in)                                              0.00       0.00 f
+  X_decoder/X[31] (PositDecoder_32_2_F0_uid4)             0.00       0.00 f
+  X_decoder/U10/ZN (CKND1BWP12T)                          0.01       0.01 r
+  X_decoder/U9/ZN (CKND2D1BWP12T)                         0.01       0.01 f
+  X_decoder/U1/ZN (ND2D1BWP12T)                           0.01       0.02 r
+  X_decoder/add_130/A[9] (PositDecoder_32_2_F0_uid4_DW01_add_1)
+                                                          0.00       0.02 r
+  X_decoder/add_130/U2/ZN (INVD1BWP12T)                   0.01       0.03 f
+  X_decoder/add_130/U14/ZN (NR2D0BWP12T)                  0.02       0.04 r
+  X_decoder/add_130/U10/Z (CKAN2D2BWP12T)                 0.02       0.06 r
+  X_decoder/add_130/U9/ZN (ND3XD3BWP12T)                  0.01       0.07 f
+  X_decoder/add_130/U7/ZN (TPNR2D1BWP12T)                 0.01       0.08 r
+  X_decoder/add_130/U6/ZN (INVD1BWP12T)                   0.01       0.08 f
+  X_decoder/add_130/U78/ZN (NR2D1BWP12T)                  0.02       0.11 r
+  X_decoder/add_130/U33/Z (AN3XD2BWP12T)                  0.02       0.13 r
+  X_decoder/add_130/U95/ZN (INVD1BWP12T)                  0.00       0.14 f
+  X_decoder/add_130/U93/ZN (NR2D1BWP12T)                  0.01       0.15 r
+  X_decoder/add_130/U61/Z (CKAN2D2BWP12T)                 0.02       0.16 r
+  X_decoder/add_130/U101/Z (AN2D1BWP12T)                  0.02       0.18 r
+  X_decoder/add_130/U77/ZN (INVD1BWP12T)                  0.00       0.19 f
+  X_decoder/add_130/U71/Z (OR2D2BWP12T)                   0.02       0.20 f
+  X_decoder/add_130/U8/ZN (XNR2XD8BWP12T)                 0.02       0.22 r
+  X_decoder/add_130/SUM[30] (PositDecoder_32_2_F0_uid4_DW01_add_1)
+                                                          0.00       0.22 r
+  X_decoder/RegimeCounter/OZb (Normalizer_ZO_30_30_30_F0_uid6)
+                                                          0.00       0.22 r
+  X_decoder/RegimeCounter/U225/ZN (INVD1BWP12T)           0.01       0.23 f
+  X_decoder/RegimeCounter/U203/ZN (OAI21D1BWP12T)         0.01       0.24 r
+  X_decoder/RegimeCounter/U33/ZN (OAI211D2BWP12T)         0.02       0.26 f
+  X_decoder/RegimeCounter/U26/Z (BUFFXD4BWP12T)           0.02       0.28 f
+  X_decoder/RegimeCounter/U13/ZN (INVD4BWP12T)            0.01       0.29 r
+  X_decoder/RegimeCounter/U27/ZN (OAI22D1BWP12T)          0.01       0.30 f
+  X_decoder/RegimeCounter/U24/ZN (XNR2D1BWP12T)           0.03       0.33 r
+  X_decoder/RegimeCounter/U167/ZN (OAI22D1BWP12T)         0.01       0.34 f
+  X_decoder/RegimeCounter/U31/ZN (INR2D4BWP12T)           0.02       0.36 f
+  X_decoder/RegimeCounter/U12/ZN (OAI21D4BWP12T)          0.01       0.37 r
+  X_decoder/RegimeCounter/U98/Z (XOR2XD0BWP12T)           0.02       0.39 f
+  X_decoder/RegimeCounter/U95/ZN (NR3XD0BWP12T)           0.01       0.41 r
+  X_decoder/RegimeCounter/U213/Z (AN4XD1BWP12T)           0.03       0.44 r
+  X_decoder/RegimeCounter/U8/Z (BUFFXD4BWP12T)            0.01       0.45 r
+  X_decoder/RegimeCounter/U43/ZN (CKND2D1BWP12T)          0.02       0.47 f
+  X_decoder/RegimeCounter/U160/ZN (OAI222D1BWP12T)        0.03       0.50 r
+  X_decoder/RegimeCounter/U224/ZN (OAI22D1BWP12T)         0.01       0.51 f
+  X_decoder/RegimeCounter/U223/ZN (OAI211D1BWP12T)        0.02       0.53 r
+  X_decoder/RegimeCounter/U116/ZN (CKND1BWP12T)           0.02       0.55 f
+  X_decoder/RegimeCounter/U176/ZN (OAI22D1BWP12T)         0.02       0.57 r
+  X_decoder/RegimeCounter/U11/ZN (CKND2BWP12T)            0.01       0.58 f
+  X_decoder/RegimeCounter/U139/ZN (AOI222D0BWP12T)        0.05       0.62 r
+  X_decoder/RegimeCounter/U138/Z (BUFFXD3BWP12T)          0.02       0.64 r
+  X_decoder/RegimeCounter/U30/ZN (INVD8BWP12T)            0.00       0.65 f
+  X_decoder/RegimeCounter/U29/ZN (NR2XD0BWP12T)           0.01       0.66 r
+  X_decoder/RegimeCounter/U14/Z (BUFFD2BWP12T)            0.01       0.67 r
+  X_decoder/RegimeCounter/U161/ZN (AOI222D1BWP12T)        0.01       0.69 f
+  X_decoder/RegimeCounter/U9/Z (XOR2XD2BWP12T)            0.03       0.72 r
+  X_decoder/RegimeCounter/U20/ZN (INVD1P25BWP12T)         0.00       0.72 f
+  X_decoder/RegimeCounter/U19/ZN (INVD1BWP12T)            0.02       0.74 r
+  X_decoder/RegimeCounter/U34/ZN (RCAOI22D0BWP12T)        0.02       0.76 f
+  X_decoder/RegimeCounter/U170/Z (OA222D1BWP12T)          0.04       0.80 f
+  X_decoder/RegimeCounter/U162/ZN (OAI221D1BWP12T)        0.02       0.82 r
+  X_decoder/RegimeCounter/R[21] (Normalizer_ZO_30_30_30_F0_uid6)
+                                                          0.00       0.82 r
+  X_decoder/Frac[21] (PositDecoder_32_2_F0_uid4)          0.00       0.82 r
+  R_encoding/Frac[20] (PositEncoder_32_2_F0_uid8)         0.00       0.82 r
+  R_encoding/RegimeGenerator/X[21] (RightShifterSticky32_by_max_30_F0_uid10)
+                                                          0.00       0.82 r
+  R_encoding/RegimeGenerator/U260/ZN (AOI22D1BWP12T)      0.01       0.83 f
+  R_encoding/RegimeGenerator/U10/ZN (OAI221D2BWP12T)      0.02       0.85 r
+  R_encoding/RegimeGenerator/U1/ZN (IAO21D1BWP12T)        0.02       0.87 r
+  R_encoding/RegimeGenerator/U191/Z (OR4D1BWP12T)         0.02       0.89 r
+  R_encoding/RegimeGenerator/U102/ZN (RCAOI22D0BWP12T)
+                                                          0.01       0.90 f
+  R_encoding/RegimeGenerator/U273/ZN (ND4D1BWP12T)        0.01       0.91 r
+  R_encoding/RegimeGenerator/Sticky (RightShifterSticky32_by_max_30_F0_uid10)
+                                                          0.00       0.91 r
+  R_encoding/U88/ZN (NR4D0BWP12T)                         0.01       0.92 f
+  R_encoding/U87/ZN (INR2D1BWP12T)                        0.02       0.94 r
+  R_encoding/add_303/B[0] (PositEncoder_32_2_F0_uid8_DW01_add_1)
+                                                          0.00       0.94 r
+  R_encoding/add_303/U8/Z (AN2XD2BWP12T)                  0.02       0.95 r
+  R_encoding/add_303/U14/Z (AN2XD1BWP12T)                 0.02       0.97 r
+  R_encoding/add_303/U50/Z (AN2XD1BWP12T)                 0.02       0.99 r
+  R_encoding/add_303/U9/Z (AN2XD0BWP12T)                  0.02       1.01 r
+  R_encoding/add_303/U22/Z (AN2XD2BWP12T)                 0.02       1.03 r
+  R_encoding/add_303/U39/Z (AN2XD2BWP12T)                 0.01       1.04 r
+  R_encoding/add_303/U57/Z (AN2D1BWP12T)                  0.02       1.06 r
+  R_encoding/add_303/U10/Z (AN2D0BWP12T)                  0.02       1.08 r
+  R_encoding/add_303/U15/Z (AN2D0BWP12T)                  0.02       1.09 r
+  R_encoding/add_303/U45/Z (CKAN2D1BWP12T)                0.02       1.11 r
+  R_encoding/add_303/U47/Z (CKAN2D1BWP12T)                0.02       1.13 r
+  R_encoding/add_303/U1/Z (CKAN2D1BWP12T)                 0.02       1.15 r
+  R_encoding/add_303/U46/Z (CKAN2D1BWP12T)                0.02       1.16 r
+  R_encoding/add_303/U2/Z (AN2D1BWP12T)                   0.02       1.18 r
+  R_encoding/add_303/U3/Z (AN2D1BWP12T)                   0.02       1.20 r
+  R_encoding/add_303/U51/Z (AN2D1BWP12T)                  0.02       1.22 r
+  R_encoding/add_303/U4/Z (AN2D1BWP12T)                   0.02       1.23 r
+  R_encoding/add_303/U53/Z (AN2D1BWP12T)                  0.02       1.25 r
+  R_encoding/add_303/U5/Z (AN2D1BWP12T)                   0.02       1.27 r
+  R_encoding/add_303/U54/Z (AN2D1BWP12T)                  0.02       1.29 r
+  R_encoding/add_303/U6/Z (AN2D1BWP12T)                   0.02       1.30 r
+  R_encoding/add_303/U52/Z (AN2D1BWP12T)                  0.02       1.32 r
+  R_encoding/add_303/U59/Z (AN2D1BWP12T)                  0.02       1.34 r
+  R_encoding/add_303/U21/Z (CKAN2D1BWP12T)                0.02       1.35 r
+  R_encoding/add_303/U32/Z (XOR2XD0BWP12T)                0.03       1.39 f
+  R_encoding/add_303/SUM[24] (PositEncoder_32_2_F0_uid8_DW01_add_1)
+                                                          0.00       1.39 f
+  R_encoding/U56/Z (XOR2D1BWP12T)                         0.02       1.41 r
+  R_encoding/add_307/A[24] (PositEncoder_32_2_F0_uid8_DW01_add_0)
+                                                          0.00       1.41 r
+  R_encoding/add_307/U55/Z (AN2D1BWP12T)                  0.02       1.43 r
+  R_encoding/add_307/U12/Z (CKAN2D1BWP12T)                0.02       1.44 r
+  R_encoding/add_307/U56/Z (AN2D1BWP12T)                  0.02       1.46 r
+  R_encoding/add_307/U14/Z (CKAN2D1BWP12T)                0.02       1.48 r
+  R_encoding/add_307/U57/Z (AN2D1BWP12T)                  0.02       1.49 r
+  R_encoding/add_307/U38/Z (CKAN2D1BWP12T)                0.02       1.51 r
+  R_encoding/add_307/U37/Z (XOR2XD1BWP12T)                0.02       1.52 r
+  R_encoding/add_307/SUM[30] (PositEncoder_32_2_F0_uid8_DW01_add_0)
+                                                          0.00       1.52 r
+  R_encoding/U35/ZN (INR2D0BWP12T)                        0.01       1.54 r
+  R_encoding/R[30] (PositEncoder_32_2_F0_uid8)            0.00       1.54 r
+  R[30] (out)                                             0.00       1.54 r
+  data arrival time                                                  1.54
+
+  max_delay                                               1.54       1.54
+  output external delay                                   0.00       1.54
+  data required time                                                 1.54
+  --------------------------------------------------------------------------
+  data required time                                                 1.54
+  data arrival time                                                 -1.54
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

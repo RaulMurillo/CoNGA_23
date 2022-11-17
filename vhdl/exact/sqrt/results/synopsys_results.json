@@ -1,0 +1,132 @@
+[
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 0,
+		"Area": 8066.184019,
+		"Power": 15.7474,
+		"Delay": 13.84,
+		"Energy": 217944.016,
+		"ADP": 111635.986823
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 50,
+		"Area": 8038.900814,
+		"Power": 16.6224,
+		"Delay": 13.17,
+		"Energy": 218917.008,
+		"ADP": 105872.32372
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 100,
+		"Area": 8964.883252,
+		"Power": 17.7411,
+		"Delay": 10.00,
+		"Energy": 177411.0,
+		"ADP": 89648.83252
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 150,
+		"Area": 13460.966482,
+		"Power": 24.0539,
+		"Delay": 6.12,
+		"Energy": 147209.868,
+		"ADP": 82381.1148698
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 200,
+		"Area": 13667.707284,
+		"Power": 21.0610,
+		"Delay": 5.00,
+		"Energy": 105305.0,
+		"ADP": 68338.53642
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 250,
+		"Area": 15543.427333,
+		"Power": 25.9404,
+		"Delay": 4.00,
+		"Energy": 103761.6,
+		"ADP": 62173.709332
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 300,
+		"Area": 17945.289786,
+		"Power": 32.2412,
+		"Delay": 3.47,
+		"Energy": 111876.964,
+		"ADP": 62270.1555574
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 350,
+		"Area": 17493.235389,
+		"Power": 31.3039,
+		"Delay": 3.50,
+		"Energy": 109563.65,
+		"ADP": 61226.3238615
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 400,
+		"Area": 17516.520184,
+		"Power": 31.1837,
+		"Delay": 3.47,
+		"Energy": 108207.439,
+		"ADP": 60782.3250385
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 450,
+		"Area": 17660.462587,
+		"Power": 31.6489,
+		"Delay": 3.58,
+		"Energy": 113303.062,
+		"ADP": 63224.4560615
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 500,
+		"Area": 17528.044989,
+		"Power": 31.0144,
+		"Delay": 3.52,
+		"Energy": 109170.688,
+		"ADP": 61698.7183613
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 550,
+		"Area": 17122.560176,
+		"Power": 30.4239,
+		"Delay": 3.58,
+		"Energy": 108917.562,
+		"ADP": 61298.7654301
+	},
+	{
+		"Design": "exact_sqrt",
+		"Bits": 32,
+		"Freq.": 600,
+		"Area": 32,
+		"Power": 32,
+		"Delay": 32,
+		"Energy": 1024000.0,
+		"ADP": 1024.0
+	}
+]

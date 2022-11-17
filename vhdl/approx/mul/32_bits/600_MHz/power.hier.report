@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : ApproxPositMult
+Version: O-2018.06-SP4
+Date   : Thu Nov 17 00:05:00 2022
+****************************************
+
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ApproxPositMult        ZeroWireload      tcbn45gsbwp12tml
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+ApproxPositMult                           0.366    0.767 2.19e+06    3.320 100.0
+  add_576 (ApproxPositMult_DW01_add_1) 7.83e-02    0.165 3.40e+05    0.583  17.5
+  R_encoding (PositEncoder_32_2_F0_uid12)
+                                          0.142    0.339 7.63e+05    1.244  37.5
+    add_458 (PositEncoder_32_2_F0_uid12_DW01_add_1)
+                                       1.45e-02 5.06e-02 1.26e+05    0.191   5.8
+    add_462 (PositEncoder_32_2_F0_uid12_DW01_add_0)
+                                       6.90e-03 4.19e-02 1.16e+05    0.165   5.0
+    RegimeGenerator (RightShifterSticky32_by_max_30_F0_uid14)
+                                       9.87e-02    0.117 2.86e+05    0.502  15.1
+  Y_decoder (PositDecoder_32_2_F0_uid8)
+                                       6.84e-02    0.127 5.19e+05    0.715  21.5
+    add_285 (PositDecoder_32_2_F0_uid8_DW01_add_1)
+                                       1.07e-02 2.98e-02 1.64e+05    0.204   6.2
+    RegimeCounter (Normalizer_ZO_30_30_30_F0_uid10)
+                                       4.80e-02 7.78e-02 2.44e+05    0.369  11.1
+  X_decoder (PositDecoder_32_2_F0_uid4)
+                                       7.44e-02    0.136 5.58e+05    0.768  23.1
+    add_130 (PositDecoder_32_2_F0_uid4_DW01_add_1)
+                                       1.18e-02 2.86e-02 1.59e+05    0.199   6.0
+    RegimeCounter (Normalizer_ZO_30_30_30_F0_uid6)
+                                       5.23e-02 8.62e-02 2.84e+05    0.422  12.7
+1

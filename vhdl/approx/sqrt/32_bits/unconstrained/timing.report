@@ -1,0 +1,159 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ApproxPositSqrt
+Version: O-2018.06-SP4
+Date   : Thu Nov 17 02:08:49 2022
+****************************************
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+  Startpoint: X[0] (input port)
+  Endpoint: R[30] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ApproxPositSqrt    ZeroWireload          tcbn45gsbwp12tml
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  X[0] (in)                                               0.00       0.00 f
+  X_decoder/X[0] (PositDecoder_32_2_F0_uid4)              0.00       0.00 f
+  X_decoder/U9/Z (CKXOR2D0BWP12T)                         0.03       0.03 r
+  X_decoder/add_130/A[0] (PositDecoder_32_2_F0_uid4_DW01_add_0)
+                                                          0.00       0.03 r
+  X_decoder/add_130/U61/Z (AN2D1BWP12T)                   0.02       0.05 r
+  X_decoder/add_130/U30/Z (AN2D1BWP12T)                   0.02       0.06 r
+  X_decoder/add_130/U31/Z (AN2D1BWP12T)                   0.02       0.08 r
+  X_decoder/add_130/U32/Z (AN2D1BWP12T)                   0.02       0.10 r
+  X_decoder/add_130/U33/Z (AN2D1BWP12T)                   0.02       0.12 r
+  X_decoder/add_130/U34/Z (AN2D1BWP12T)                   0.02       0.14 r
+  X_decoder/add_130/U35/Z (AN2D1BWP12T)                   0.02       0.16 r
+  X_decoder/add_130/U36/Z (AN2D1BWP12T)                   0.02       0.17 r
+  X_decoder/add_130/U37/Z (AN2D1BWP12T)                   0.02       0.19 r
+  X_decoder/add_130/U38/Z (AN2D1BWP12T)                   0.02       0.21 r
+  X_decoder/add_130/U39/Z (AN2D1BWP12T)                   0.02       0.23 r
+  X_decoder/add_130/U40/Z (AN2D1BWP12T)                   0.02       0.25 r
+  X_decoder/add_130/U41/Z (AN2D1BWP12T)                   0.02       0.26 r
+  X_decoder/add_130/U42/Z (AN2D1BWP12T)                   0.02       0.28 r
+  X_decoder/add_130/U43/Z (AN2D1BWP12T)                   0.02       0.30 r
+  X_decoder/add_130/U44/Z (AN2D1BWP12T)                   0.02       0.32 r
+  X_decoder/add_130/U45/Z (AN2D1BWP12T)                   0.02       0.34 r
+  X_decoder/add_130/U46/Z (AN2D1BWP12T)                   0.02       0.36 r
+  X_decoder/add_130/U47/Z (AN2D1BWP12T)                   0.02       0.37 r
+  X_decoder/add_130/U48/Z (AN2D1BWP12T)                   0.02       0.39 r
+  X_decoder/add_130/U49/Z (AN2D1BWP12T)                   0.02       0.41 r
+  X_decoder/add_130/U50/Z (AN2D1BWP12T)                   0.02       0.43 r
+  X_decoder/add_130/U51/Z (AN2D1BWP12T)                   0.02       0.45 r
+  X_decoder/add_130/U52/Z (AN2D1BWP12T)                   0.02       0.46 r
+  X_decoder/add_130/U53/Z (AN2D1BWP12T)                   0.02       0.48 r
+  X_decoder/add_130/U54/Z (AN2D1BWP12T)                   0.02       0.50 r
+  X_decoder/add_130/U55/Z (AN2D1BWP12T)                   0.02       0.52 r
+  X_decoder/add_130/U56/Z (AN2D1BWP12T)                   0.02       0.54 r
+  X_decoder/add_130/U57/Z (AN2D1BWP12T)                   0.02       0.56 r
+  X_decoder/add_130/U59/ZN (ND2D1BWP12T)                  0.01       0.56 f
+  X_decoder/add_130/U58/ZN (XNR2D1BWP12T)                 0.02       0.58 f
+  X_decoder/add_130/SUM[30] (PositDecoder_32_2_F0_uid4_DW01_add_0)
+                                                          0.00       0.58 f
+  X_decoder/RegimeCounter/OZb (Normalizer_ZO_30_30_30_F0_uid6)
+                                                          0.00       0.58 f
+  X_decoder/RegimeCounter/U238/ZN (CKND0BWP12T)           0.02       0.60 r
+  X_decoder/RegimeCounter/U234/ZN (ND4D0BWP12T)           0.02       0.62 f
+  X_decoder/RegimeCounter/U221/ZN (MUX2ND0BWP12T)         0.02       0.64 r
+  X_decoder/RegimeCounter/U214/ZN (CKND2D0BWP12T)         0.03       0.67 f
+  X_decoder/RegimeCounter/U212/ZN (CKND0BWP12T)           0.04       0.71 r
+  X_decoder/RegimeCounter/U211/ZN (MUX2ND0BWP12T)         0.02       0.74 f
+  X_decoder/RegimeCounter/U203/Z (OR2D0BWP12T)            0.03       0.76 f
+  X_decoder/RegimeCounter/U198/ZN (AOI21D0BWP12T)         0.02       0.78 r
+  X_decoder/RegimeCounter/U197/Z (CKMUX2D0BWP12T)         0.02       0.80 f
+  X_decoder/RegimeCounter/U190/ZN (ND3D0BWP12T)           0.01       0.82 r
+  X_decoder/RegimeCounter/U189/ZN (CKND0BWP12T)           0.02       0.84 f
+  X_decoder/RegimeCounter/U188/ZN (CKND2D0BWP12T)         0.07       0.91 r
+  X_decoder/RegimeCounter/U175/Z (OA222D0BWP12T)          0.05       0.96 r
+  X_decoder/RegimeCounter/U174/ZN (MUX2ND0BWP12T)         0.02       0.98 r
+  X_decoder/RegimeCounter/U173/ZN (OAI211D0BWP12T)        0.04       1.02 f
+  X_decoder/RegimeCounter/U168/ZN (CKND0BWP12T)           0.04       1.06 r
+  X_decoder/RegimeCounter/U167/Z (CKMUX2D0BWP12T)         0.02       1.08 r
+  X_decoder/RegimeCounter/U166/ZN (MUX2ND0BWP12T)         0.02       1.10 r
+  X_decoder/RegimeCounter/U165/ZN (OAI21D0BWP12T)         0.06       1.16 f
+  X_decoder/RegimeCounter/U164/ZN (NR2D0BWP12T)           0.06       1.22 r
+  X_decoder/RegimeCounter/U161/Z (AO222D0BWP12T)          0.04       1.25 r
+  X_decoder/RegimeCounter/U3/Z (XOR2D0BWP12T)             0.04       1.29 f
+  X_decoder/RegimeCounter/U2/ZN (INVD1BWP12T)             0.08       1.37 r
+  X_decoder/RegimeCounter/U95/ZN (MUX2ND0BWP12T)          0.02       1.39 r
+  X_decoder/RegimeCounter/U94/ZN (OAI21D0BWP12T)          0.02       1.41 f
+  X_decoder/RegimeCounter/U66/ZN (AOI22D0BWP12T)          0.02       1.43 r
+  X_decoder/RegimeCounter/U65/ZN (OAI221D0BWP12T)         0.03       1.46 f
+  X_decoder/RegimeCounter/R[20] (Normalizer_ZO_30_30_30_F0_uid6)
+                                                          0.00       1.46 f
+  X_decoder/Frac[20] (PositDecoder_32_2_F0_uid4)          0.00       1.46 f
+  R_encoding/Frac[19] (PositEncoder_32_2_F0_uid8)         0.00       1.46 f
+  R_encoding/RegimeGenerator/X[20] (RightShifterSticky32_by_max_30_F0_uid10)
+                                                          0.00       1.46 f
+  R_encoding/RegimeGenerator/U256/ZN (CKND0BWP12T)        0.02       1.48 r
+  R_encoding/RegimeGenerator/U216/ZN (MOAI22D0BWP12T)     0.01       1.49 f
+  R_encoding/RegimeGenerator/U215/ZN (AOI221D0BWP12T)     0.04       1.53 r
+  R_encoding/RegimeGenerator/U214/ZN (CKND0BWP12T)        0.02       1.55 f
+  R_encoding/RegimeGenerator/U107/ZN (AOI22D0BWP12T)      0.02       1.57 r
+  R_encoding/RegimeGenerator/U102/ZN (ND4D0BWP12T)        0.03       1.60 f
+  R_encoding/RegimeGenerator/R[1] (RightShifterSticky32_by_max_30_F0_uid10)
+                                                          0.00       1.60 f
+  R_encoding/U16/ZN (NR4D0BWP12T)                         0.02       1.62 r
+  R_encoding/U15/ZN (INR2D0BWP12T)                        0.01       1.63 f
+  R_encoding/add_303/B[0] (PositEncoder_32_2_F0_uid8_DW01_add_1)
+                                                          0.00       1.63 f
+  R_encoding/add_303/U61/Z (AN2D1BWP12T)                  0.02       1.65 f
+  R_encoding/add_303/U32/Z (XOR2D1BWP12T)                 0.03       1.67 r
+  R_encoding/add_303/SUM[1] (PositEncoder_32_2_F0_uid8_DW01_add_1)
+                                                          0.00       1.67 r
+  R_encoding/U63/ZN (XNR2D0BWP12T)                        0.02       1.70 r
+  R_encoding/add_307/A[1] (PositEncoder_32_2_F0_uid8_DW01_add_0)
+                                                          0.00       1.70 r
+  R_encoding/add_307/U59/Z (AN2D1BWP12T)                  0.02       1.72 r
+  R_encoding/add_307/U1/Z (AN2D1BWP12T)                   0.02       1.73 r
+  R_encoding/add_307/U2/Z (AN2D1BWP12T)                   0.02       1.75 r
+  R_encoding/add_307/U3/Z (AN2D1BWP12T)                   0.02       1.77 r
+  R_encoding/add_307/U4/Z (AN2D1BWP12T)                   0.02       1.79 r
+  R_encoding/add_307/U5/Z (AN2D1BWP12T)                   0.02       1.81 r
+  R_encoding/add_307/U6/Z (AN2D1BWP12T)                   0.02       1.83 r
+  R_encoding/add_307/U7/Z (AN2D1BWP12T)                   0.02       1.84 r
+  R_encoding/add_307/U8/Z (AN2D1BWP12T)                   0.02       1.86 r
+  R_encoding/add_307/U9/Z (AN2D1BWP12T)                   0.02       1.88 r
+  R_encoding/add_307/U10/Z (AN2D1BWP12T)                  0.02       1.90 r
+  R_encoding/add_307/U11/Z (AN2D1BWP12T)                  0.02       1.92 r
+  R_encoding/add_307/U12/Z (AN2D1BWP12T)                  0.02       1.94 r
+  R_encoding/add_307/U13/Z (AN2D1BWP12T)                  0.02       1.95 r
+  R_encoding/add_307/U14/Z (AN2D1BWP12T)                  0.02       1.97 r
+  R_encoding/add_307/U15/Z (AN2D1BWP12T)                  0.02       1.99 r
+  R_encoding/add_307/U16/Z (AN2D1BWP12T)                  0.02       2.01 r
+  R_encoding/add_307/U17/Z (AN2D1BWP12T)                  0.02       2.03 r
+  R_encoding/add_307/U18/Z (AN2D1BWP12T)                  0.02       2.04 r
+  R_encoding/add_307/U19/Z (AN2D1BWP12T)                  0.02       2.06 r
+  R_encoding/add_307/U20/Z (AN2D1BWP12T)                  0.02       2.08 r
+  R_encoding/add_307/U21/Z (AN2D1BWP12T)                  0.02       2.10 r
+  R_encoding/add_307/U22/Z (AN2D1BWP12T)                  0.02       2.12 r
+  R_encoding/add_307/U23/Z (AN2D1BWP12T)                  0.02       2.14 r
+  R_encoding/add_307/U24/Z (AN2D1BWP12T)                  0.02       2.15 r
+  R_encoding/add_307/U25/Z (AN2D1BWP12T)                  0.02       2.17 r
+  R_encoding/add_307/U26/Z (AN2D1BWP12T)                  0.02       2.19 r
+  R_encoding/add_307/U27/Z (AN2D1BWP12T)                  0.02       2.21 r
+  R_encoding/add_307/U58/ZN (ND2D1BWP12T)                 0.01       2.22 f
+  R_encoding/add_307/U57/ZN (XNR2D1BWP12T)                0.02       2.24 r
+  R_encoding/add_307/SUM[30] (PositEncoder_32_2_F0_uid8_DW01_add_0)
+                                                          0.00       2.24 r
+  R_encoding/U31/ZN (INR2D0BWP12T)                        0.01       2.25 r
+  R_encoding/R[30] (PositEncoder_32_2_F0_uid8)            0.00       2.25 r
+  R[30] (out)                                             0.00       2.25 r
+  data arrival time                                                  2.25
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

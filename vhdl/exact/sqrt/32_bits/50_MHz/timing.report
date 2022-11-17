@@ -1,0 +1,772 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : PositSqrt
+Version: O-2018.06-SP4
+Date   : Thu Nov 17 13:28:38 2022
+****************************************
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+  Startpoint: X[24] (input port)
+  Endpoint: R[30] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PositSqrt          ZeroWireload          tcbn45gsbwp12tml
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  X[24] (in)                                              0.00       0.00 f
+  X_decoder/X[24] (PositFastDecoder_32_2_F0_uid4)         0.00       0.00 f
+  X_decoder/RegimeCounter/X[24] (Normalizer_ZO_30_30_30_F0_uid6)
+                                                          0.00       0.00 f
+  X_decoder/RegimeCounter/U186/ZN (NR3D1BWP12T)           0.02       0.02 r
+  X_decoder/RegimeCounter/U185/ZN (IND4D1BWP12T)          0.01       0.03 f
+  X_decoder/RegimeCounter/U162/ZN (NR4D0BWP12T)           0.02       0.05 r
+  X_decoder/RegimeCounter/U159/ZN (OAI22D1BWP12T)         0.03       0.08 f
+  X_decoder/RegimeCounter/U119/ZN (INVD1BWP12T)           0.03       0.11 r
+  X_decoder/RegimeCounter/U163/ZN (OAI22D1BWP12T)         0.02       0.13 f
+  X_decoder/RegimeCounter/U134/ZN (XNR2D1BWP12T)          0.03       0.16 r
+  X_decoder/RegimeCounter/U109/ZN (OAI22D1BWP12T)         0.01       0.17 f
+  X_decoder/RegimeCounter/U59/ZN (ND2D1BWP12T)            0.01       0.18 r
+  X_decoder/RegimeCounter/U39/ZN (OAI21D1BWP12T)          0.01       0.20 f
+  X_decoder/RegimeCounter/U122/Z (XOR2D1BWP12T)           0.03       0.23 r
+  X_decoder/RegimeCounter/U193/Z (XOR2D1BWP12T)           0.02       0.25 f
+  X_decoder/RegimeCounter/U190/ZN (NR3D1BWP12T)           0.02       0.27 r
+  X_decoder/RegimeCounter/U86/ZN (ND4D1BWP12T)            0.02       0.29 f
+  X_decoder/RegimeCounter/U31/ZN (INVD1BWP12T)            0.03       0.32 r
+  X_decoder/RegimeCounter/U115/ZN (ND2D1BWP12T)           0.05       0.36 f
+  X_decoder/RegimeCounter/U78/ZN (OAI222D1BWP12T)         0.03       0.40 r
+  X_decoder/RegimeCounter/U152/ZN (INVD1BWP12T)           0.00       0.40 f
+  X_decoder/RegimeCounter/U150/ZN (AOI222D1BWP12T)        0.03       0.44 r
+  X_decoder/RegimeCounter/U149/ZN (OAI221D1BWP12T)        0.04       0.48 f
+  X_decoder/RegimeCounter/U85/ZN (INVD1BWP12T)            0.03       0.50 r
+  X_decoder/RegimeCounter/U93/ZN (OAI22D1BWP12T)          0.01       0.52 f
+  X_decoder/RegimeCounter/U195/ZN (OAI222D1BWP12T)        0.03       0.54 r
+  X_decoder/RegimeCounter/U194/Z (CKBD1BWP12T)            0.04       0.58 r
+  X_decoder/RegimeCounter/U147/ZN (INVD1BWP12T)           0.02       0.60 f
+  X_decoder/RegimeCounter/U30/ZN (ND2D1BWP12T)            0.02       0.63 r
+  X_decoder/RegimeCounter/U11/ZN (INVD1BWP12T)            0.02       0.64 f
+  X_decoder/RegimeCounter/U95/ZN (AOI222D1BWP12T)         0.04       0.69 r
+  X_decoder/RegimeCounter/U2/Z (XOR2D1BWP12T)             0.07       0.76 r
+  X_decoder/RegimeCounter/U146/ZN (INVD1BWP12T)           0.05       0.81 f
+  X_decoder/RegimeCounter/U17/ZN (OAI22D1BWP12T)          0.03       0.84 r
+  X_decoder/RegimeCounter/U198/ZN (OAI221D1BWP12T)        0.02       0.86 f
+  X_decoder/RegimeCounter/R[27] (Normalizer_ZO_30_30_30_F0_uid6)
+                                                          0.00       0.86 f
+  X_decoder/U5/Z (XOR2D1BWP12T)                           0.07       0.93 r
+  X_decoder/SF[0] (PositFastDecoder_32_2_F0_uid4)         0.00       0.93 r
+  U3222/ZN (INVD1BWP12T)                                  0.01       0.93 f
+  U3090/Z (CKBD1BWP12T)                                   0.03       0.96 f
+  U3202/ZN (OAI22D1BWP12T)                                0.02       0.98 r
+  sub_1/X[26] (IntAdder_31_F0_uid8)                       0.00       0.98 r
+  sub_1/add_1_root_add_173_2/A[26] (IntAdder_31_F0_uid8_DW01_add_0)
+                                                          0.00       0.98 r
+  sub_1/add_1_root_add_173_2/U1_26/S (FA1D0BWP12T)        0.05       1.03 r
+  sub_1/add_1_root_add_173_2/SUM[26] (IntAdder_31_F0_uid8_DW01_add_0)
+                                                          0.00       1.03 r
+  sub_1/R[26] (IntAdder_31_F0_uid8)                       0.00       1.03 r
+  sub_2/X[27] (IntAdder_31_F0_uid10)                      0.00       1.03 r
+  sub_2/add_1_root_add_208_2/A[27] (IntAdder_31_F0_uid10_DW01_add_0)
+                                                          0.00       1.03 r
+  sub_2/add_1_root_add_208_2/U1_27/CO (FA1D0BWP12T)       0.04       1.07 r
+  sub_2/add_1_root_add_208_2/U1_28/CO (FA1D0BWP12T)       0.02       1.09 r
+  sub_2/add_1_root_add_208_2/U1_29/CO (FA1D0BWP12T)       0.02       1.11 r
+  sub_2/add_1_root_add_208_2/U1_30/Z (XOR3D1BWP12T)       0.03       1.14 f
+  sub_2/add_1_root_add_208_2/SUM[30] (IntAdder_31_F0_uid10_DW01_add_0)
+                                                          0.00       1.14 f
+  sub_2/R[30] (IntAdder_31_F0_uid10)                      0.00       1.14 f
+  U2989/ZN (NR4D0BWP12T)                                  0.02       1.16 r
+  U2907/ZN (ND4D1BWP12T)                                  0.02       1.18 f
+  U2905/ZN (OAI21D1BWP12T)                                0.02       1.20 r
+  U2822/ZN (INVD1BWP12T)                                  0.01       1.20 f
+  U2644/ZN (ND2D1BWP12T)                                  0.01       1.21 r
+  U2634/Z (CKBD1BWP12T)                                   0.05       1.26 r
+  U3040/ZN (XNR2D1BWP12T)                                 0.02       1.28 f
+  sub_4/Y[28] (IntAdder_31_F0_uid14)                      0.00       1.28 f
+  sub_4/add_1_root_add_278_2/B[28] (IntAdder_31_F0_uid14_DW01_add_0)
+                                                          0.00       1.28 f
+  sub_4/add_1_root_add_278_2/U1_28/CO (FA1D0BWP12T)       0.04       1.32 f
+  sub_4/add_1_root_add_278_2/U1_29/CO (FA1D0BWP12T)       0.02       1.34 f
+  sub_4/add_1_root_add_278_2/U1_30/Z (XOR3D1BWP12T)       0.03       1.37 r
+  sub_4/add_1_root_add_278_2/SUM[30] (IntAdder_31_F0_uid14_DW01_add_0)
+                                                          0.00       1.37 r
+  sub_4/R[30] (IntAdder_31_F0_uid14)                      0.00       1.37 r
+  U2657/ZN (INVD1BWP12T)                                  0.01       1.38 f
+  U3043/ZN (XNR2D1BWP12T)                                 0.03       1.41 r
+  sub_5/Y[27] (IntAdder_31_F0_uid16)                      0.00       1.41 r
+  sub_5/add_1_root_add_313_2/B[27] (IntAdder_31_F0_uid16_DW01_add_0)
+                                                          0.00       1.41 r
+  sub_5/add_1_root_add_313_2/U1_27/CO (FA1D0BWP12T)       0.04       1.45 r
+  sub_5/add_1_root_add_313_2/U1_28/CO (FA1D0BWP12T)       0.02       1.47 r
+  sub_5/add_1_root_add_313_2/U1_29/CO (FA1D0BWP12T)       0.02       1.49 r
+  sub_5/add_1_root_add_313_2/U1_30/Z (XOR3D1BWP12T)       0.03       1.52 f
+  sub_5/add_1_root_add_313_2/SUM[30] (IntAdder_31_F0_uid16_DW01_add_0)
+                                                          0.00       1.52 f
+  sub_5/R[30] (IntAdder_31_F0_uid16)                      0.00       1.52 f
+  U2655/ZN (INVD1BWP12T)                                  0.02       1.54 r
+  U3058/ZN (XNR2D1BWP12T)                                 0.02       1.56 f
+  sub_6/Y[26] (IntAdder_31_F0_uid18)                      0.00       1.56 f
+  sub_6/add_1_root_add_348_2/B[26] (IntAdder_31_F0_uid18_DW01_add_0)
+                                                          0.00       1.56 f
+  sub_6/add_1_root_add_348_2/U1_26/CO (FA1D0BWP12T)       0.04       1.59 f
+  sub_6/add_1_root_add_348_2/U1_27/CO (FA1D0BWP12T)       0.02       1.62 f
+  sub_6/add_1_root_add_348_2/U1_28/CO (FA1D0BWP12T)       0.02       1.64 f
+  sub_6/add_1_root_add_348_2/U1_29/CO (FA1D0BWP12T)       0.02       1.66 f
+  sub_6/add_1_root_add_348_2/U1_30/Z (XOR3D1BWP12T)       0.03       1.70 r
+  sub_6/add_1_root_add_348_2/SUM[30] (IntAdder_31_F0_uid18_DW01_add_0)
+                                                          0.00       1.70 r
+  sub_6/R[30] (IntAdder_31_F0_uid18)                      0.00       1.70 r
+  U2467/ZN (INVD1BWP12T)                                  0.01       1.71 f
+  U3082/ZN (XNR2D1BWP12T)                                 0.03       1.74 r
+  sub_7/Y[25] (IntAdder_31_F0_uid20)                      0.00       1.74 r
+  sub_7/add_1_root_add_383_2/B[25] (IntAdder_31_F0_uid20_DW01_add_0)
+                                                          0.00       1.74 r
+  sub_7/add_1_root_add_383_2/U1_25/CO (FA1D0BWP12T)       0.04       1.77 r
+  sub_7/add_1_root_add_383_2/U1_26/CO (FA1D0BWP12T)       0.02       1.80 r
+  sub_7/add_1_root_add_383_2/U1_27/CO (FA1D0BWP12T)       0.02       1.82 r
+  sub_7/add_1_root_add_383_2/U1_28/CO (FA1D0BWP12T)       0.02       1.84 r
+  sub_7/add_1_root_add_383_2/U1_29/CO (FA1D0BWP12T)       0.02       1.87 r
+  sub_7/add_1_root_add_383_2/U1_30/Z (XOR3D1BWP12T)       0.03       1.89 f
+  sub_7/add_1_root_add_383_2/SUM[30] (IntAdder_31_F0_uid20_DW01_add_0)
+                                                          0.00       1.89 f
+  sub_7/R[30] (IntAdder_31_F0_uid20)                      0.00       1.89 f
+  U2466/ZN (INVD1BWP12T)                                  0.02       1.91 r
+  U3084/ZN (XNR2D1BWP12T)                                 0.02       1.94 f
+  sub_8/Y[24] (IntAdder_31_F0_uid22)                      0.00       1.94 f
+  sub_8/add_1_root_add_418_2/B[24] (IntAdder_31_F0_uid22_DW01_add_0)
+                                                          0.00       1.94 f
+  sub_8/add_1_root_add_418_2/U1_24/CO (FA1D0BWP12T)       0.04       1.97 f
+  sub_8/add_1_root_add_418_2/U1_25/CO (FA1D0BWP12T)       0.02       2.00 f
+  sub_8/add_1_root_add_418_2/U1_26/CO (FA1D0BWP12T)       0.02       2.02 f
+  sub_8/add_1_root_add_418_2/U1_27/CO (FA1D0BWP12T)       0.02       2.04 f
+  sub_8/add_1_root_add_418_2/U1_28/CO (FA1D0BWP12T)       0.02       2.06 f
+  sub_8/add_1_root_add_418_2/U1_29/CO (FA1D0BWP12T)       0.02       2.09 f
+  sub_8/add_1_root_add_418_2/U1_30/Z (XOR3D1BWP12T)       0.03       2.12 r
+  sub_8/add_1_root_add_418_2/SUM[30] (IntAdder_31_F0_uid22_DW01_add_0)
+                                                          0.00       2.12 r
+  sub_8/R[30] (IntAdder_31_F0_uid22)                      0.00       2.12 r
+  U2371/ZN (INVD1BWP12T)                                  0.02       2.14 f
+  U3086/ZN (XNR2D1BWP12T)                                 0.03       2.16 r
+  sub_9/Y[23] (IntAdder_31_F0_uid24)                      0.00       2.16 r
+  sub_9/add_1_root_add_453_2/B[23] (IntAdder_31_F0_uid24_DW01_add_0)
+                                                          0.00       2.16 r
+  sub_9/add_1_root_add_453_2/U1_23/CO (FA1D0BWP12T)       0.04       2.20 r
+  sub_9/add_1_root_add_453_2/U1_24/CO (FA1D0BWP12T)       0.02       2.22 r
+  sub_9/add_1_root_add_453_2/U1_25/CO (FA1D0BWP12T)       0.02       2.25 r
+  sub_9/add_1_root_add_453_2/U1_26/CO (FA1D0BWP12T)       0.02       2.27 r
+  sub_9/add_1_root_add_453_2/U1_27/CO (FA1D0BWP12T)       0.02       2.29 r
+  sub_9/add_1_root_add_453_2/U1_28/CO (FA1D0BWP12T)       0.02       2.32 r
+  sub_9/add_1_root_add_453_2/U1_29/CO (FA1D0BWP12T)       0.02       2.34 r
+  sub_9/add_1_root_add_453_2/U1_30/Z (XOR3D1BWP12T)       0.03       2.37 f
+  sub_9/add_1_root_add_453_2/SUM[30] (IntAdder_31_F0_uid24_DW01_add_0)
+                                                          0.00       2.37 f
+  sub_9/R[30] (IntAdder_31_F0_uid24)                      0.00       2.37 f
+  U2374/ZN (INVD1BWP12T)                                  0.02       2.39 r
+  U3073/ZN (XNR2D1BWP12T)                                 0.02       2.41 f
+  sub_10/Y[22] (IntAdder_31_F0_uid26)                     0.00       2.41 f
+  sub_10/add_1_root_add_488_2/B[22] (IntAdder_31_F0_uid26_DW01_add_0)
+                                                          0.00       2.41 f
+  sub_10/add_1_root_add_488_2/U1_22/CO (FA1D0BWP12T)      0.04       2.45 f
+  sub_10/add_1_root_add_488_2/U1_23/CO (FA1D0BWP12T)      0.02       2.47 f
+  sub_10/add_1_root_add_488_2/U1_24/CO (FA1D0BWP12T)      0.02       2.50 f
+  sub_10/add_1_root_add_488_2/U1_25/CO (FA1D0BWP12T)      0.02       2.52 f
+  sub_10/add_1_root_add_488_2/U1_26/CO (FA1D0BWP12T)      0.02       2.54 f
+  sub_10/add_1_root_add_488_2/U1_27/CO (FA1D0BWP12T)      0.02       2.57 f
+  sub_10/add_1_root_add_488_2/U1_28/CO (FA1D0BWP12T)      0.02       2.59 f
+  sub_10/add_1_root_add_488_2/U1_29/CO (FA1D0BWP12T)      0.02       2.61 f
+  sub_10/add_1_root_add_488_2/U1_30/Z (XOR3D1BWP12T)      0.03       2.64 r
+  sub_10/add_1_root_add_488_2/SUM[30] (IntAdder_31_F0_uid26_DW01_add_0)
+                                                          0.00       2.64 r
+  sub_10/R[30] (IntAdder_31_F0_uid26)                     0.00       2.64 r
+  U2368/ZN (INVD1BWP12T)                                  0.02       2.66 f
+  U3097/ZN (XNR2D1BWP12T)                                 0.03       2.69 r
+  sub_11/Y[21] (IntAdder_31_F0_uid28)                     0.00       2.69 r
+  sub_11/add_1_root_add_523_2/B[21] (IntAdder_31_F0_uid28_DW01_add_0)
+                                                          0.00       2.69 r
+  sub_11/add_1_root_add_523_2/U1_21/CO (FA1D0BWP12T)      0.04       2.73 r
+  sub_11/add_1_root_add_523_2/U1_22/CO (FA1D0BWP12T)      0.02       2.75 r
+  sub_11/add_1_root_add_523_2/U1_23/CO (FA1D0BWP12T)      0.02       2.77 r
+  sub_11/add_1_root_add_523_2/U1_24/CO (FA1D0BWP12T)      0.02       2.80 r
+  sub_11/add_1_root_add_523_2/U1_25/CO (FA1D0BWP12T)      0.02       2.82 r
+  sub_11/add_1_root_add_523_2/U1_26/CO (FA1D0BWP12T)      0.02       2.84 r
+  sub_11/add_1_root_add_523_2/U1_27/CO (FA1D0BWP12T)      0.02       2.87 r
+  sub_11/add_1_root_add_523_2/U1_28/CO (FA1D0BWP12T)      0.02       2.89 r
+  sub_11/add_1_root_add_523_2/U1_29/CO (FA1D0BWP12T)      0.02       2.91 r
+  sub_11/add_1_root_add_523_2/U1_30/Z (XOR3D1BWP12T)      0.03       2.94 f
+  sub_11/add_1_root_add_523_2/SUM[30] (IntAdder_31_F0_uid28_DW01_add_0)
+                                                          0.00       2.94 f
+  sub_11/R[30] (IntAdder_31_F0_uid28)                     0.00       2.94 f
+  U2373/ZN (INVD1BWP12T)                                  0.03       2.97 r
+  U3060/ZN (XNR2D1BWP12T)                                 0.02       2.99 f
+  sub_12/Y[20] (IntAdder_31_F0_uid30)                     0.00       2.99 f
+  sub_12/add_1_root_add_558_2/B[20] (IntAdder_31_F0_uid30_DW01_add_0)
+                                                          0.00       2.99 f
+  sub_12/add_1_root_add_558_2/U1_20/CO (FA1D0BWP12T)      0.04       3.03 f
+  sub_12/add_1_root_add_558_2/U1_21/CO (FA1D0BWP12T)      0.02       3.05 f
+  sub_12/add_1_root_add_558_2/U1_22/CO (FA1D0BWP12T)      0.02       3.07 f
+  sub_12/add_1_root_add_558_2/U1_23/CO (FA1D0BWP12T)      0.02       3.10 f
+  sub_12/add_1_root_add_558_2/U1_24/CO (FA1D0BWP12T)      0.02       3.12 f
+  sub_12/add_1_root_add_558_2/U1_25/CO (FA1D0BWP12T)      0.02       3.14 f
+  sub_12/add_1_root_add_558_2/U1_26/CO (FA1D0BWP12T)      0.02       3.16 f
+  sub_12/add_1_root_add_558_2/U1_27/CO (FA1D0BWP12T)      0.02       3.19 f
+  sub_12/add_1_root_add_558_2/U1_28/CO (FA1D0BWP12T)      0.02       3.21 f
+  sub_12/add_1_root_add_558_2/U1_29/CO (FA1D0BWP12T)      0.02       3.23 f
+  sub_12/add_1_root_add_558_2/U1_30/Z (XOR3D1BWP12T)      0.03       3.27 r
+  sub_12/add_1_root_add_558_2/SUM[30] (IntAdder_31_F0_uid30_DW01_add_0)
+                                                          0.00       3.27 r
+  sub_12/R[30] (IntAdder_31_F0_uid30)                     0.00       3.27 r
+  U2372/ZN (INVD1BWP12T)                                  0.02       3.29 f
+  U3052/ZN (XNR2D1BWP12T)                                 0.03       3.32 r
+  sub_13/Y[19] (IntAdder_31_F0_uid32)                     0.00       3.32 r
+  sub_13/add_1_root_add_593_2/B[19] (IntAdder_31_F0_uid32_DW01_add_0)
+                                                          0.00       3.32 r
+  sub_13/add_1_root_add_593_2/U1_19/CO (FA1D0BWP12T)      0.04       3.35 r
+  sub_13/add_1_root_add_593_2/U1_20/CO (FA1D0BWP12T)      0.02       3.38 r
+  sub_13/add_1_root_add_593_2/U1_21/CO (FA1D0BWP12T)      0.02       3.40 r
+  sub_13/add_1_root_add_593_2/U1_22/CO (FA1D0BWP12T)      0.02       3.42 r
+  sub_13/add_1_root_add_593_2/U1_23/CO (FA1D0BWP12T)      0.02       3.45 r
+  sub_13/add_1_root_add_593_2/U1_24/CO (FA1D0BWP12T)      0.02       3.47 r
+  sub_13/add_1_root_add_593_2/U1_25/CO (FA1D0BWP12T)      0.02       3.49 r
+  sub_13/add_1_root_add_593_2/U1_26/CO (FA1D0BWP12T)      0.02       3.52 r
+  sub_13/add_1_root_add_593_2/U1_27/CO (FA1D0BWP12T)      0.02       3.54 r
+  sub_13/add_1_root_add_593_2/U1_28/CO (FA1D0BWP12T)      0.02       3.56 r
+  sub_13/add_1_root_add_593_2/U1_29/CO (FA1D0BWP12T)      0.02       3.59 r
+  sub_13/add_1_root_add_593_2/U1_30/Z (XOR3D1BWP12T)      0.03       3.61 f
+  sub_13/add_1_root_add_593_2/SUM[30] (IntAdder_31_F0_uid32_DW01_add_0)
+                                                          0.00       3.61 f
+  sub_13/R[30] (IntAdder_31_F0_uid32)                     0.00       3.61 f
+  U2365/ZN (INVD1BWP12T)                                  0.03       3.64 r
+  U3053/ZN (XNR2D1BWP12T)                                 0.02       3.67 f
+  sub_14/Y[18] (IntAdder_31_F0_uid34)                     0.00       3.67 f
+  sub_14/add_1_root_add_628_2/B[18] (IntAdder_31_F0_uid34_DW01_add_0)
+                                                          0.00       3.67 f
+  sub_14/add_1_root_add_628_2/U1_18/CO (FA1D0BWP12T)      0.04       3.70 f
+  sub_14/add_1_root_add_628_2/U1_19/CO (FA1D0BWP12T)      0.02       3.73 f
+  sub_14/add_1_root_add_628_2/U1_20/CO (FA1D0BWP12T)      0.02       3.75 f
+  sub_14/add_1_root_add_628_2/U1_21/CO (FA1D0BWP12T)      0.02       3.77 f
+  sub_14/add_1_root_add_628_2/U1_22/CO (FA1D0BWP12T)      0.02       3.79 f
+  sub_14/add_1_root_add_628_2/U1_23/CO (FA1D0BWP12T)      0.02       3.82 f
+  sub_14/add_1_root_add_628_2/U1_24/CO (FA1D0BWP12T)      0.02       3.84 f
+  sub_14/add_1_root_add_628_2/U1_25/CO (FA1D0BWP12T)      0.02       3.86 f
+  sub_14/add_1_root_add_628_2/U1_26/CO (FA1D0BWP12T)      0.02       3.89 f
+  sub_14/add_1_root_add_628_2/U1_27/CO (FA1D0BWP12T)      0.02       3.91 f
+  sub_14/add_1_root_add_628_2/U1_28/CO (FA1D0BWP12T)      0.02       3.93 f
+  sub_14/add_1_root_add_628_2/U1_29/CO (FA1D0BWP12T)      0.02       3.96 f
+  sub_14/add_1_root_add_628_2/U1_30/Z (XOR3D1BWP12T)      0.03       3.99 r
+  sub_14/add_1_root_add_628_2/SUM[30] (IntAdder_31_F0_uid34_DW01_add_0)
+                                                          0.00       3.99 r
+  sub_14/R[30] (IntAdder_31_F0_uid34)                     0.00       3.99 r
+  U2367/ZN (INVD1BWP12T)                                  0.02       4.01 f
+  U3048/ZN (XNR2D1BWP12T)                                 0.03       4.04 r
+  sub_15/Y[17] (IntAdder_31_F0_uid36)                     0.00       4.04 r
+  sub_15/add_1_root_add_663_2/B[17] (IntAdder_31_F0_uid36_DW01_add_0)
+                                                          0.00       4.04 r
+  sub_15/add_1_root_add_663_2/U1_17/CO (FA1D0BWP12T)      0.04       4.08 r
+  sub_15/add_1_root_add_663_2/U1_18/CO (FA1D0BWP12T)      0.02       4.10 r
+  sub_15/add_1_root_add_663_2/U1_19/CO (FA1D0BWP12T)      0.02       4.12 r
+  sub_15/add_1_root_add_663_2/U1_20/CO (FA1D0BWP12T)      0.02       4.15 r
+  sub_15/add_1_root_add_663_2/U1_21/CO (FA1D0BWP12T)      0.02       4.17 r
+  sub_15/add_1_root_add_663_2/U1_22/CO (FA1D0BWP12T)      0.02       4.19 r
+  sub_15/add_1_root_add_663_2/U1_23/CO (FA1D0BWP12T)      0.02       4.22 r
+  sub_15/add_1_root_add_663_2/U1_24/CO (FA1D0BWP12T)      0.02       4.24 r
+  sub_15/add_1_root_add_663_2/U1_25/CO (FA1D0BWP12T)      0.02       4.26 r
+  sub_15/add_1_root_add_663_2/U1_26/CO (FA1D0BWP12T)      0.02       4.29 r
+  sub_15/add_1_root_add_663_2/U1_27/CO (FA1D0BWP12T)      0.02       4.31 r
+  sub_15/add_1_root_add_663_2/U1_28/CO (FA1D0BWP12T)      0.02       4.33 r
+  sub_15/add_1_root_add_663_2/U1_29/CO (FA1D0BWP12T)      0.02       4.36 r
+  sub_15/add_1_root_add_663_2/U1_30/Z (XOR3D1BWP12T)      0.03       4.38 f
+  sub_15/add_1_root_add_663_2/SUM[30] (IntAdder_31_F0_uid36_DW01_add_0)
+                                                          0.00       4.38 f
+  sub_15/R[30] (IntAdder_31_F0_uid36)                     0.00       4.38 f
+  U2366/ZN (INVD1BWP12T)                                  0.04       4.42 r
+  U3070/ZN (XNR2D1BWP12T)                                 0.02       4.44 r
+  sub_16/Y[16] (IntAdder_31_F0_uid38)                     0.00       4.44 r
+  sub_16/add_1_root_add_698_2/B[16] (IntAdder_31_F0_uid38_DW01_add_0)
+                                                          0.00       4.44 r
+  sub_16/add_1_root_add_698_2/U1_16/CO (FA1D0BWP12T)      0.04       4.48 r
+  sub_16/add_1_root_add_698_2/U1_17/CO (FA1D0BWP12T)      0.02       4.50 r
+  sub_16/add_1_root_add_698_2/U1_18/CO (FA1D0BWP12T)      0.02       4.52 r
+  sub_16/add_1_root_add_698_2/U1_19/CO (FA1D0BWP12T)      0.02       4.54 r
+  sub_16/add_1_root_add_698_2/U1_20/CO (FA1D0BWP12T)      0.02       4.57 r
+  sub_16/add_1_root_add_698_2/U1_21/CO (FA1D0BWP12T)      0.02       4.59 r
+  sub_16/add_1_root_add_698_2/U1_22/CO (FA1D0BWP12T)      0.02       4.61 r
+  sub_16/add_1_root_add_698_2/U1_23/CO (FA1D0BWP12T)      0.02       4.64 r
+  sub_16/add_1_root_add_698_2/U1_24/CO (FA1D0BWP12T)      0.02       4.66 r
+  sub_16/add_1_root_add_698_2/U1_25/CO (FA1D0BWP12T)      0.02       4.68 r
+  sub_16/add_1_root_add_698_2/U1_26/CO (FA1D0BWP12T)      0.02       4.71 r
+  sub_16/add_1_root_add_698_2/U1_27/CO (FA1D0BWP12T)      0.02       4.73 r
+  sub_16/add_1_root_add_698_2/U1_28/CO (FA1D0BWP12T)      0.02       4.75 r
+  sub_16/add_1_root_add_698_2/U1_29/CO (FA1D0BWP12T)      0.02       4.78 r
+  sub_16/add_1_root_add_698_2/U1_30/Z (XOR3D1BWP12T)      0.03       4.80 f
+  sub_16/add_1_root_add_698_2/SUM[30] (IntAdder_31_F0_uid38_DW01_add_0)
+                                                          0.00       4.80 f
+  sub_16/R[30] (IntAdder_31_F0_uid38)                     0.00       4.80 f
+  U2364/ZN (INVD1BWP12T)                                  0.04       4.84 r
+  U3068/ZN (XNR2D1BWP12T)                                 0.02       4.86 r
+  sub_17/Y[15] (IntAdder_31_F0_uid40)                     0.00       4.86 r
+  sub_17/add_1_root_add_733_2/B[15] (IntAdder_31_F0_uid40_DW01_add_0)
+                                                          0.00       4.86 r
+  sub_17/add_1_root_add_733_2/U1_15/CO (FA1D0BWP12T)      0.04       4.90 r
+  sub_17/add_1_root_add_733_2/U1_16/CO (FA1D0BWP12T)      0.02       4.92 r
+  sub_17/add_1_root_add_733_2/U1_17/CO (FA1D0BWP12T)      0.02       4.94 r
+  sub_17/add_1_root_add_733_2/U1_18/CO (FA1D0BWP12T)      0.02       4.97 r
+  sub_17/add_1_root_add_733_2/U1_19/CO (FA1D0BWP12T)      0.02       4.99 r
+  sub_17/add_1_root_add_733_2/U1_20/CO (FA1D0BWP12T)      0.02       5.01 r
+  sub_17/add_1_root_add_733_2/U1_21/CO (FA1D0BWP12T)      0.02       5.04 r
+  sub_17/add_1_root_add_733_2/U1_22/CO (FA1D0BWP12T)      0.02       5.06 r
+  sub_17/add_1_root_add_733_2/U1_23/CO (FA1D0BWP12T)      0.02       5.08 r
+  sub_17/add_1_root_add_733_2/U1_24/CO (FA1D0BWP12T)      0.02       5.11 r
+  sub_17/add_1_root_add_733_2/U1_25/CO (FA1D0BWP12T)      0.02       5.13 r
+  sub_17/add_1_root_add_733_2/U1_26/CO (FA1D0BWP12T)      0.02       5.15 r
+  sub_17/add_1_root_add_733_2/U1_27/CO (FA1D0BWP12T)      0.02       5.18 r
+  sub_17/add_1_root_add_733_2/U1_28/CO (FA1D0BWP12T)      0.02       5.20 r
+  sub_17/add_1_root_add_733_2/U1_29/CO (FA1D0BWP12T)      0.02       5.22 r
+  sub_17/add_1_root_add_733_2/U1_30/Z (XOR3D1BWP12T)      0.03       5.25 f
+  sub_17/add_1_root_add_733_2/SUM[30] (IntAdder_31_F0_uid40_DW01_add_0)
+                                                          0.00       5.25 f
+  sub_17/R[30] (IntAdder_31_F0_uid40)                     0.00       5.25 f
+  U2361/ZN (INVD1BWP12T)                                  0.04       5.29 r
+  U3096/ZN (XNR2D1BWP12T)                                 0.02       5.31 r
+  sub_18/Y[14] (IntAdder_31_F0_uid42)                     0.00       5.31 r
+  sub_18/add_1_root_add_768_2/B[14] (IntAdder_31_F0_uid42_DW01_add_0)
+                                                          0.00       5.31 r
+  sub_18/add_1_root_add_768_2/U1_14/CO (FA1D0BWP12T)      0.04       5.34 r
+  sub_18/add_1_root_add_768_2/U1_15/CO (FA1D0BWP12T)      0.02       5.37 r
+  sub_18/add_1_root_add_768_2/U1_16/CO (FA1D0BWP12T)      0.02       5.39 r
+  sub_18/add_1_root_add_768_2/U1_17/CO (FA1D0BWP12T)      0.02       5.41 r
+  sub_18/add_1_root_add_768_2/U1_18/CO (FA1D0BWP12T)      0.02       5.44 r
+  sub_18/add_1_root_add_768_2/U1_19/CO (FA1D0BWP12T)      0.02       5.46 r
+  sub_18/add_1_root_add_768_2/U1_20/CO (FA1D0BWP12T)      0.02       5.48 r
+  sub_18/add_1_root_add_768_2/U1_21/CO (FA1D0BWP12T)      0.02       5.51 r
+  sub_18/add_1_root_add_768_2/U1_22/CO (FA1D0BWP12T)      0.02       5.53 r
+  sub_18/add_1_root_add_768_2/U1_23/CO (FA1D0BWP12T)      0.02       5.55 r
+  sub_18/add_1_root_add_768_2/U1_24/CO (FA1D0BWP12T)      0.02       5.58 r
+  sub_18/add_1_root_add_768_2/U1_25/CO (FA1D0BWP12T)      0.02       5.60 r
+  sub_18/add_1_root_add_768_2/U1_26/CO (FA1D0BWP12T)      0.02       5.62 r
+  sub_18/add_1_root_add_768_2/U1_27/CO (FA1D0BWP12T)      0.02       5.65 r
+  sub_18/add_1_root_add_768_2/U1_28/CO (FA1D0BWP12T)      0.02       5.67 r
+  sub_18/add_1_root_add_768_2/U1_29/CO (FA1D0BWP12T)      0.02       5.69 r
+  sub_18/add_1_root_add_768_2/U1_30/Z (XOR3D1BWP12T)      0.03       5.72 f
+  sub_18/add_1_root_add_768_2/SUM[30] (IntAdder_31_F0_uid42_DW01_add_0)
+                                                          0.00       5.72 f
+  sub_18/R[30] (IntAdder_31_F0_uid42)                     0.00       5.72 f
+  U2358/ZN (INVD1BWP12T)                                  0.04       5.76 r
+  U3063/ZN (XNR2D1BWP12T)                                 0.02       5.78 r
+  sub_19/Y[13] (IntAdder_31_F0_uid44)                     0.00       5.78 r
+  sub_19/add_1_root_add_803_2/B[13] (IntAdder_31_F0_uid44_DW01_add_0)
+                                                          0.00       5.78 r
+  sub_19/add_1_root_add_803_2/U1_13/CO (FA1D0BWP12T)      0.04       5.82 r
+  sub_19/add_1_root_add_803_2/U1_14/CO (FA1D0BWP12T)      0.02       5.84 r
+  sub_19/add_1_root_add_803_2/U1_15/CO (FA1D0BWP12T)      0.02       5.86 r
+  sub_19/add_1_root_add_803_2/U1_16/CO (FA1D0BWP12T)      0.02       5.89 r
+  sub_19/add_1_root_add_803_2/U1_17/CO (FA1D0BWP12T)      0.02       5.91 r
+  sub_19/add_1_root_add_803_2/U1_18/CO (FA1D0BWP12T)      0.02       5.93 r
+  sub_19/add_1_root_add_803_2/U1_19/CO (FA1D0BWP12T)      0.02       5.96 r
+  sub_19/add_1_root_add_803_2/U1_20/CO (FA1D0BWP12T)      0.02       5.98 r
+  sub_19/add_1_root_add_803_2/U1_21/CO (FA1D0BWP12T)      0.02       6.00 r
+  sub_19/add_1_root_add_803_2/U1_22/CO (FA1D0BWP12T)      0.02       6.03 r
+  sub_19/add_1_root_add_803_2/U1_23/CO (FA1D0BWP12T)      0.02       6.05 r
+  sub_19/add_1_root_add_803_2/U1_24/CO (FA1D0BWP12T)      0.02       6.07 r
+  sub_19/add_1_root_add_803_2/U1_25/CO (FA1D0BWP12T)      0.02       6.10 r
+  sub_19/add_1_root_add_803_2/U1_26/CO (FA1D0BWP12T)      0.02       6.12 r
+  sub_19/add_1_root_add_803_2/U1_27/CO (FA1D0BWP12T)      0.02       6.14 r
+  sub_19/add_1_root_add_803_2/U1_28/CO (FA1D0BWP12T)      0.02       6.17 r
+  sub_19/add_1_root_add_803_2/U1_29/CO (FA1D0BWP12T)      0.02       6.19 r
+  sub_19/add_1_root_add_803_2/U1_30/Z (XOR3D1BWP12T)      0.03       6.21 f
+  sub_19/add_1_root_add_803_2/SUM[30] (IntAdder_31_F0_uid44_DW01_add_0)
+                                                          0.00       6.21 f
+  sub_19/R[30] (IntAdder_31_F0_uid44)                     0.00       6.21 f
+  U2363/ZN (INVD1BWP12T)                                  0.04       6.26 r
+  U3056/ZN (XNR2D1BWP12T)                                 0.02       6.28 r
+  sub_20/Y[12] (IntAdder_31_F0_uid46)                     0.00       6.28 r
+  sub_20/add_1_root_add_838_2/B[12] (IntAdder_31_F0_uid46_DW01_add_0)
+                                                          0.00       6.28 r
+  sub_20/add_1_root_add_838_2/U1_12/CO (FA1D0BWP12T)      0.04       6.32 r
+  sub_20/add_1_root_add_838_2/U1_13/CO (FA1D0BWP12T)      0.02       6.34 r
+  sub_20/add_1_root_add_838_2/U1_14/CO (FA1D0BWP12T)      0.02       6.36 r
+  sub_20/add_1_root_add_838_2/U1_15/CO (FA1D0BWP12T)      0.02       6.38 r
+  sub_20/add_1_root_add_838_2/U1_16/CO (FA1D0BWP12T)      0.02       6.41 r
+  sub_20/add_1_root_add_838_2/U1_17/CO (FA1D0BWP12T)      0.02       6.43 r
+  sub_20/add_1_root_add_838_2/U1_18/CO (FA1D0BWP12T)      0.02       6.45 r
+  sub_20/add_1_root_add_838_2/U1_19/CO (FA1D0BWP12T)      0.02       6.48 r
+  sub_20/add_1_root_add_838_2/U1_20/CO (FA1D0BWP12T)      0.02       6.50 r
+  sub_20/add_1_root_add_838_2/U1_21/CO (FA1D0BWP12T)      0.02       6.52 r
+  sub_20/add_1_root_add_838_2/U1_22/CO (FA1D0BWP12T)      0.02       6.55 r
+  sub_20/add_1_root_add_838_2/U1_23/CO (FA1D0BWP12T)      0.02       6.57 r
+  sub_20/add_1_root_add_838_2/U1_24/CO (FA1D0BWP12T)      0.02       6.59 r
+  sub_20/add_1_root_add_838_2/U1_25/CO (FA1D0BWP12T)      0.02       6.62 r
+  sub_20/add_1_root_add_838_2/U1_26/CO (FA1D0BWP12T)      0.02       6.64 r
+  sub_20/add_1_root_add_838_2/U1_27/CO (FA1D0BWP12T)      0.02       6.66 r
+  sub_20/add_1_root_add_838_2/U1_28/CO (FA1D0BWP12T)      0.02       6.69 r
+  sub_20/add_1_root_add_838_2/U1_29/CO (FA1D0BWP12T)      0.02       6.71 r
+  sub_20/add_1_root_add_838_2/U1_30/Z (XOR3D1BWP12T)      0.03       6.74 f
+  sub_20/add_1_root_add_838_2/SUM[30] (IntAdder_31_F0_uid46_DW01_add_0)
+                                                          0.00       6.74 f
+  sub_20/R[30] (IntAdder_31_F0_uid46)                     0.00       6.74 f
+  U2360/ZN (INVD1BWP12T)                                  0.04       6.78 r
+  U3098/ZN (XNR2D1BWP12T)                                 0.02       6.80 r
+  sub_21/Y[11] (IntAdder_31_F0_uid48)                     0.00       6.80 r
+  sub_21/add_1_root_add_873_2/B[11] (IntAdder_31_F0_uid48_DW01_add_0)
+                                                          0.00       6.80 r
+  sub_21/add_1_root_add_873_2/U1_11/CO (FA1D0BWP12T)      0.04       6.84 r
+  sub_21/add_1_root_add_873_2/U1_12/CO (FA1D0BWP12T)      0.02       6.86 r
+  sub_21/add_1_root_add_873_2/U1_13/CO (FA1D0BWP12T)      0.02       6.88 r
+  sub_21/add_1_root_add_873_2/U1_14/CO (FA1D0BWP12T)      0.02       6.91 r
+  sub_21/add_1_root_add_873_2/U1_15/CO (FA1D0BWP12T)      0.02       6.93 r
+  sub_21/add_1_root_add_873_2/U1_16/CO (FA1D0BWP12T)      0.02       6.95 r
+  sub_21/add_1_root_add_873_2/U1_17/CO (FA1D0BWP12T)      0.02       6.98 r
+  sub_21/add_1_root_add_873_2/U1_18/CO (FA1D0BWP12T)      0.02       7.00 r
+  sub_21/add_1_root_add_873_2/U1_19/CO (FA1D0BWP12T)      0.02       7.02 r
+  sub_21/add_1_root_add_873_2/U1_20/CO (FA1D0BWP12T)      0.02       7.05 r
+  sub_21/add_1_root_add_873_2/U1_21/CO (FA1D0BWP12T)      0.02       7.07 r
+  sub_21/add_1_root_add_873_2/U1_22/CO (FA1D0BWP12T)      0.02       7.09 r
+  sub_21/add_1_root_add_873_2/U1_23/CO (FA1D0BWP12T)      0.02       7.12 r
+  sub_21/add_1_root_add_873_2/U1_24/CO (FA1D0BWP12T)      0.02       7.14 r
+  sub_21/add_1_root_add_873_2/U1_25/CO (FA1D0BWP12T)      0.02       7.16 r
+  sub_21/add_1_root_add_873_2/U1_26/CO (FA1D0BWP12T)      0.02       7.19 r
+  sub_21/add_1_root_add_873_2/U1_27/CO (FA1D0BWP12T)      0.02       7.21 r
+  sub_21/add_1_root_add_873_2/U1_28/CO (FA1D0BWP12T)      0.02       7.23 r
+  sub_21/add_1_root_add_873_2/U1_29/CO (FA1D0BWP12T)      0.02       7.26 r
+  sub_21/add_1_root_add_873_2/U1_30/Z (XOR3D1BWP12T)      0.03       7.28 f
+  sub_21/add_1_root_add_873_2/SUM[30] (IntAdder_31_F0_uid48_DW01_add_0)
+                                                          0.00       7.28 f
+  sub_21/R[30] (IntAdder_31_F0_uid48)                     0.00       7.28 f
+  U2362/ZN (INVD1BWP12T)                                  0.05       7.33 r
+  U3045/ZN (XNR2D1BWP12T)                                 0.02       7.35 r
+  sub_22/Y[10] (IntAdder_31_F0_uid50)                     0.00       7.35 r
+  sub_22/add_1_root_add_908_2/B[10] (IntAdder_31_F0_uid50_DW01_add_0)
+                                                          0.00       7.35 r
+  sub_22/add_1_root_add_908_2/U1_10/CO (FA1D0BWP12T)      0.04       7.39 r
+  sub_22/add_1_root_add_908_2/U1_11/CO (FA1D0BWP12T)      0.02       7.41 r
+  sub_22/add_1_root_add_908_2/U1_12/CO (FA1D0BWP12T)      0.02       7.43 r
+  sub_22/add_1_root_add_908_2/U1_13/CO (FA1D0BWP12T)      0.02       7.46 r
+  sub_22/add_1_root_add_908_2/U1_14/CO (FA1D0BWP12T)      0.02       7.48 r
+  sub_22/add_1_root_add_908_2/U1_15/CO (FA1D0BWP12T)      0.02       7.50 r
+  sub_22/add_1_root_add_908_2/U1_16/CO (FA1D0BWP12T)      0.02       7.53 r
+  sub_22/add_1_root_add_908_2/U1_17/CO (FA1D0BWP12T)      0.02       7.55 r
+  sub_22/add_1_root_add_908_2/U1_18/CO (FA1D0BWP12T)      0.02       7.57 r
+  sub_22/add_1_root_add_908_2/U1_19/CO (FA1D0BWP12T)      0.02       7.60 r
+  sub_22/add_1_root_add_908_2/U1_20/CO (FA1D0BWP12T)      0.02       7.62 r
+  sub_22/add_1_root_add_908_2/U1_21/CO (FA1D0BWP12T)      0.02       7.64 r
+  sub_22/add_1_root_add_908_2/U1_22/CO (FA1D0BWP12T)      0.02       7.67 r
+  sub_22/add_1_root_add_908_2/U1_23/CO (FA1D0BWP12T)      0.02       7.69 r
+  sub_22/add_1_root_add_908_2/U1_24/CO (FA1D0BWP12T)      0.02       7.71 r
+  sub_22/add_1_root_add_908_2/U1_25/CO (FA1D0BWP12T)      0.02       7.74 r
+  sub_22/add_1_root_add_908_2/U1_26/CO (FA1D0BWP12T)      0.02       7.76 r
+  sub_22/add_1_root_add_908_2/U1_27/CO (FA1D0BWP12T)      0.02       7.78 r
+  sub_22/add_1_root_add_908_2/U1_28/CO (FA1D0BWP12T)      0.02       7.80 r
+  sub_22/add_1_root_add_908_2/U1_29/CO (FA1D0BWP12T)      0.02       7.83 r
+  sub_22/add_1_root_add_908_2/U1_30/Z (XOR3D1BWP12T)      0.03       7.85 f
+  sub_22/add_1_root_add_908_2/SUM[30] (IntAdder_31_F0_uid50_DW01_add_0)
+                                                          0.00       7.85 f
+  sub_22/R[30] (IntAdder_31_F0_uid50)                     0.00       7.85 f
+  U2359/ZN (INVD1BWP12T)                                  0.05       7.90 r
+  U3080/ZN (XNR2D1BWP12T)                                 0.02       7.93 r
+  sub_23/Y[9] (IntAdder_31_F0_uid52)                      0.00       7.93 r
+  sub_23/add_1_root_add_943_2/B[9] (IntAdder_31_F0_uid52_DW01_add_0)
+                                                          0.00       7.93 r
+  sub_23/add_1_root_add_943_2/U1_9/CO (FA1D0BWP12T)       0.04       7.96 r
+  sub_23/add_1_root_add_943_2/U1_10/CO (FA1D0BWP12T)      0.02       7.98 r
+  sub_23/add_1_root_add_943_2/U1_11/CO (FA1D0BWP12T)      0.02       8.01 r
+  sub_23/add_1_root_add_943_2/U1_12/CO (FA1D0BWP12T)      0.02       8.03 r
+  sub_23/add_1_root_add_943_2/U1_13/CO (FA1D0BWP12T)      0.02       8.05 r
+  sub_23/add_1_root_add_943_2/U1_14/CO (FA1D0BWP12T)      0.02       8.08 r
+  sub_23/add_1_root_add_943_2/U1_15/CO (FA1D0BWP12T)      0.02       8.10 r
+  sub_23/add_1_root_add_943_2/U1_16/CO (FA1D0BWP12T)      0.02       8.12 r
+  sub_23/add_1_root_add_943_2/U1_17/CO (FA1D0BWP12T)      0.02       8.15 r
+  sub_23/add_1_root_add_943_2/U1_18/CO (FA1D0BWP12T)      0.02       8.17 r
+  sub_23/add_1_root_add_943_2/U1_19/CO (FA1D0BWP12T)      0.02       8.19 r
+  sub_23/add_1_root_add_943_2/U1_20/CO (FA1D0BWP12T)      0.02       8.22 r
+  sub_23/add_1_root_add_943_2/U1_21/CO (FA1D0BWP12T)      0.02       8.24 r
+  sub_23/add_1_root_add_943_2/U1_22/CO (FA1D0BWP12T)      0.02       8.26 r
+  sub_23/add_1_root_add_943_2/U1_23/CO (FA1D0BWP12T)      0.02       8.29 r
+  sub_23/add_1_root_add_943_2/U1_24/CO (FA1D0BWP12T)      0.02       8.31 r
+  sub_23/add_1_root_add_943_2/U1_25/CO (FA1D0BWP12T)      0.02       8.33 r
+  sub_23/add_1_root_add_943_2/U1_26/CO (FA1D0BWP12T)      0.02       8.36 r
+  sub_23/add_1_root_add_943_2/U1_27/CO (FA1D0BWP12T)      0.02       8.38 r
+  sub_23/add_1_root_add_943_2/U1_28/CO (FA1D0BWP12T)      0.02       8.40 r
+  sub_23/add_1_root_add_943_2/U1_29/CO (FA1D0BWP12T)      0.02       8.43 r
+  sub_23/add_1_root_add_943_2/U1_30/Z (XOR3D1BWP12T)      0.03       8.45 f
+  sub_23/add_1_root_add_943_2/SUM[30] (IntAdder_31_F0_uid52_DW01_add_0)
+                                                          0.00       8.45 f
+  sub_23/R[30] (IntAdder_31_F0_uid52)                     0.00       8.45 f
+  U2357/ZN (INVD1BWP12T)                                  0.05       8.50 r
+  U3078/ZN (XNR2D1BWP12T)                                 0.02       8.52 r
+  sub_24/Y[8] (IntAdder_31_F0_uid54)                      0.00       8.52 r
+  sub_24/add_1_root_add_978_2/B[8] (IntAdder_31_F0_uid54_DW01_add_0)
+                                                          0.00       8.52 r
+  sub_24/add_1_root_add_978_2/U1_8/CO (FA1D0BWP12T)       0.04       8.56 r
+  sub_24/add_1_root_add_978_2/U1_9/CO (FA1D0BWP12T)       0.02       8.58 r
+  sub_24/add_1_root_add_978_2/U1_10/CO (FA1D0BWP12T)      0.02       8.61 r
+  sub_24/add_1_root_add_978_2/U1_11/CO (FA1D0BWP12T)      0.02       8.63 r
+  sub_24/add_1_root_add_978_2/U1_12/CO (FA1D0BWP12T)      0.02       8.65 r
+  sub_24/add_1_root_add_978_2/U1_13/CO (FA1D0BWP12T)      0.02       8.68 r
+  sub_24/add_1_root_add_978_2/U1_14/CO (FA1D0BWP12T)      0.02       8.70 r
+  sub_24/add_1_root_add_978_2/U1_15/CO (FA1D0BWP12T)      0.02       8.72 r
+  sub_24/add_1_root_add_978_2/U1_16/CO (FA1D0BWP12T)      0.02       8.74 r
+  sub_24/add_1_root_add_978_2/U1_17/CO (FA1D0BWP12T)      0.02       8.77 r
+  sub_24/add_1_root_add_978_2/U1_18/CO (FA1D0BWP12T)      0.02       8.79 r
+  sub_24/add_1_root_add_978_2/U1_19/CO (FA1D0BWP12T)      0.02       8.81 r
+  sub_24/add_1_root_add_978_2/U1_20/CO (FA1D0BWP12T)      0.02       8.84 r
+  sub_24/add_1_root_add_978_2/U1_21/CO (FA1D0BWP12T)      0.02       8.86 r
+  sub_24/add_1_root_add_978_2/U1_22/CO (FA1D0BWP12T)      0.02       8.88 r
+  sub_24/add_1_root_add_978_2/U1_23/CO (FA1D0BWP12T)      0.02       8.91 r
+  sub_24/add_1_root_add_978_2/U1_24/CO (FA1D0BWP12T)      0.02       8.93 r
+  sub_24/add_1_root_add_978_2/U1_25/CO (FA1D0BWP12T)      0.02       8.95 r
+  sub_24/add_1_root_add_978_2/U1_26/CO (FA1D0BWP12T)      0.02       8.98 r
+  sub_24/add_1_root_add_978_2/U1_27/CO (FA1D0BWP12T)      0.02       9.00 r
+  sub_24/add_1_root_add_978_2/U1_28/CO (FA1D0BWP12T)      0.02       9.02 r
+  sub_24/add_1_root_add_978_2/U1_29/CO (FA1D0BWP12T)      0.02       9.05 r
+  sub_24/add_1_root_add_978_2/U1_30/Z (XOR3D1BWP12T)      0.03       9.07 f
+  sub_24/add_1_root_add_978_2/SUM[30] (IntAdder_31_F0_uid54_DW01_add_0)
+                                                          0.00       9.07 f
+  sub_24/R[30] (IntAdder_31_F0_uid54)                     0.00       9.07 f
+  U2354/ZN (INVD1BWP12T)                                  0.01       9.08 r
+  U2351/Z (CKBD1BWP12T)                                   0.03       9.11 r
+  U3094/ZN (XNR2D1BWP12T)                                 0.02       9.14 f
+  sub_25/Y[7] (IntAdder_31_F0_uid56)                      0.00       9.14 f
+  sub_25/add_1_root_add_1013_2/B[7] (IntAdder_31_F0_uid56_DW01_add_0)
+                                                          0.00       9.14 f
+  sub_25/add_1_root_add_1013_2/U1_7/CO (FA1D0BWP12T)      0.03       9.16 f
+  sub_25/add_1_root_add_1013_2/U1_8/CO (FA1D0BWP12T)      0.02       9.19 f
+  sub_25/add_1_root_add_1013_2/U1_9/CO (FA1D0BWP12T)      0.02       9.21 f
+  sub_25/add_1_root_add_1013_2/U1_10/CO (FA1D0BWP12T)     0.02       9.23 f
+  sub_25/add_1_root_add_1013_2/U1_11/CO (FA1D0BWP12T)     0.02       9.25 f
+  sub_25/add_1_root_add_1013_2/U1_12/CO (FA1D0BWP12T)     0.02       9.28 f
+  sub_25/add_1_root_add_1013_2/U1_13/CO (FA1D0BWP12T)     0.02       9.30 f
+  sub_25/add_1_root_add_1013_2/U1_14/CO (FA1D0BWP12T)     0.02       9.32 f
+  sub_25/add_1_root_add_1013_2/U1_15/CO (FA1D0BWP12T)     0.02       9.35 f
+  sub_25/add_1_root_add_1013_2/U1_16/CO (FA1D0BWP12T)     0.02       9.37 f
+  sub_25/add_1_root_add_1013_2/U1_17/CO (FA1D0BWP12T)     0.02       9.39 f
+  sub_25/add_1_root_add_1013_2/U1_18/CO (FA1D0BWP12T)     0.02       9.42 f
+  sub_25/add_1_root_add_1013_2/U1_19/CO (FA1D0BWP12T)     0.02       9.44 f
+  sub_25/add_1_root_add_1013_2/U1_20/CO (FA1D0BWP12T)     0.02       9.46 f
+  sub_25/add_1_root_add_1013_2/U1_21/CO (FA1D0BWP12T)     0.02       9.49 f
+  sub_25/add_1_root_add_1013_2/U1_22/CO (FA1D0BWP12T)     0.02       9.51 f
+  sub_25/add_1_root_add_1013_2/U1_23/CO (FA1D0BWP12T)     0.02       9.53 f
+  sub_25/add_1_root_add_1013_2/U1_24/CO (FA1D0BWP12T)     0.02       9.56 f
+  sub_25/add_1_root_add_1013_2/U1_25/CO (FA1D0BWP12T)     0.02       9.58 f
+  sub_25/add_1_root_add_1013_2/U1_26/CO (FA1D0BWP12T)     0.02       9.60 f
+  sub_25/add_1_root_add_1013_2/U1_27/CO (FA1D0BWP12T)     0.02       9.62 f
+  sub_25/add_1_root_add_1013_2/U1_28/CO (FA1D0BWP12T)     0.02       9.65 f
+  sub_25/add_1_root_add_1013_2/U1_29/CO (FA1D0BWP12T)     0.02       9.67 f
+  sub_25/add_1_root_add_1013_2/U1_30/Z (XOR3D1BWP12T)     0.03       9.70 r
+  sub_25/add_1_root_add_1013_2/SUM[30] (IntAdder_31_F0_uid56_DW01_add_0)
+                                                          0.00       9.70 r
+  sub_25/R[30] (IntAdder_31_F0_uid56)                     0.00       9.70 r
+  U2355/ZN (INVD1BWP12T)                                  0.01       9.71 f
+  U2350/Z (CKBD1BWP12T)                                   0.03       9.74 f
+  U3075/ZN (XNR2D1BWP12T)                                 0.03       9.77 r
+  sub_26/Y[6] (IntAdder_31_F0_uid58)                      0.00       9.77 r
+  sub_26/add_1_root_add_1048_2/B[6] (IntAdder_31_F0_uid58_DW01_add_0)
+                                                          0.00       9.77 r
+  sub_26/add_1_root_add_1048_2/U1_6/CO (FA1D0BWP12T)      0.03       9.80 r
+  sub_26/add_1_root_add_1048_2/U1_7/CO (FA1D0BWP12T)      0.02       9.83 r
+  sub_26/add_1_root_add_1048_2/U1_8/CO (FA1D0BWP12T)      0.02       9.85 r
+  sub_26/add_1_root_add_1048_2/U1_9/CO (FA1D0BWP12T)      0.02       9.87 r
+  sub_26/add_1_root_add_1048_2/U1_10/CO (FA1D0BWP12T)     0.02       9.90 r
+  sub_26/add_1_root_add_1048_2/U1_11/CO (FA1D0BWP12T)     0.02       9.92 r
+  sub_26/add_1_root_add_1048_2/U1_12/CO (FA1D0BWP12T)     0.02       9.94 r
+  sub_26/add_1_root_add_1048_2/U1_13/CO (FA1D0BWP12T)     0.02       9.97 r
+  sub_26/add_1_root_add_1048_2/U1_14/CO (FA1D0BWP12T)     0.02       9.99 r
+  sub_26/add_1_root_add_1048_2/U1_15/CO (FA1D0BWP12T)     0.02      10.01 r
+  sub_26/add_1_root_add_1048_2/U1_16/CO (FA1D0BWP12T)     0.02      10.04 r
+  sub_26/add_1_root_add_1048_2/U1_17/CO (FA1D0BWP12T)     0.02      10.06 r
+  sub_26/add_1_root_add_1048_2/U1_18/CO (FA1D0BWP12T)     0.02      10.08 r
+  sub_26/add_1_root_add_1048_2/U1_19/CO (FA1D0BWP12T)     0.02      10.11 r
+  sub_26/add_1_root_add_1048_2/U1_20/CO (FA1D0BWP12T)     0.02      10.13 r
+  sub_26/add_1_root_add_1048_2/U1_21/CO (FA1D0BWP12T)     0.02      10.15 r
+  sub_26/add_1_root_add_1048_2/U1_22/CO (FA1D0BWP12T)     0.02      10.18 r
+  sub_26/add_1_root_add_1048_2/U1_23/CO (FA1D0BWP12T)     0.02      10.20 r
+  sub_26/add_1_root_add_1048_2/U1_24/CO (FA1D0BWP12T)     0.02      10.22 r
+  sub_26/add_1_root_add_1048_2/U1_25/CO (FA1D0BWP12T)     0.02      10.25 r
+  sub_26/add_1_root_add_1048_2/U1_26/CO (FA1D0BWP12T)     0.02      10.27 r
+  sub_26/add_1_root_add_1048_2/U1_27/CO (FA1D0BWP12T)     0.02      10.29 r
+  sub_26/add_1_root_add_1048_2/U1_28/CO (FA1D0BWP12T)     0.02      10.32 r
+  sub_26/add_1_root_add_1048_2/U1_29/CO (FA1D0BWP12T)     0.02      10.34 r
+  sub_26/add_1_root_add_1048_2/U1_30/Z (XOR3D1BWP12T)     0.03      10.36 f
+  sub_26/add_1_root_add_1048_2/SUM[30] (IntAdder_31_F0_uid58_DW01_add_0)
+                                                          0.00      10.36 f
+  sub_26/R[30] (IntAdder_31_F0_uid58)                     0.00      10.36 f
+  U2356/ZN (INVD1BWP12T)                                  0.01      10.37 r
+  U2349/Z (CKBD1BWP12T)                                   0.03      10.41 r
+  U3066/ZN (XNR2D1BWP12T)                                 0.02      10.43 f
+  sub_27/Y[5] (IntAdder_31_F0_uid60)                      0.00      10.43 f
+  sub_27/add_1_root_add_1083_2/B[5] (IntAdder_31_F0_uid60_DW01_add_0)
+                                                          0.00      10.43 f
+  sub_27/add_1_root_add_1083_2/U1_5/CO (FA1D0BWP12T)      0.03      10.46 f
+  sub_27/add_1_root_add_1083_2/U1_6/CO (FA1D0BWP12T)      0.02      10.48 f
+  sub_27/add_1_root_add_1083_2/U1_7/CO (FA1D0BWP12T)      0.02      10.50 f
+  sub_27/add_1_root_add_1083_2/U1_8/CO (FA1D0BWP12T)      0.02      10.53 f
+  sub_27/add_1_root_add_1083_2/U1_9/CO (FA1D0BWP12T)      0.02      10.55 f
+  sub_27/add_1_root_add_1083_2/U1_10/CO (FA1D0BWP12T)     0.02      10.57 f
+  sub_27/add_1_root_add_1083_2/U1_11/CO (FA1D0BWP12T)     0.02      10.60 f
+  sub_27/add_1_root_add_1083_2/U1_12/CO (FA1D0BWP12T)     0.02      10.62 f
+  sub_27/add_1_root_add_1083_2/U1_13/CO (FA1D0BWP12T)     0.02      10.64 f
+  sub_27/add_1_root_add_1083_2/U1_14/CO (FA1D0BWP12T)     0.02      10.67 f
+  sub_27/add_1_root_add_1083_2/U1_15/CO (FA1D0BWP12T)     0.02      10.69 f
+  sub_27/add_1_root_add_1083_2/U1_16/CO (FA1D0BWP12T)     0.02      10.71 f
+  sub_27/add_1_root_add_1083_2/U1_17/CO (FA1D0BWP12T)     0.02      10.74 f
+  sub_27/add_1_root_add_1083_2/U1_18/CO (FA1D0BWP12T)     0.02      10.76 f
+  sub_27/add_1_root_add_1083_2/U1_19/CO (FA1D0BWP12T)     0.02      10.78 f
+  sub_27/add_1_root_add_1083_2/U1_20/CO (FA1D0BWP12T)     0.02      10.80 f
+  sub_27/add_1_root_add_1083_2/U1_21/CO (FA1D0BWP12T)     0.02      10.83 f
+  sub_27/add_1_root_add_1083_2/U1_22/CO (FA1D0BWP12T)     0.02      10.85 f
+  sub_27/add_1_root_add_1083_2/U1_23/CO (FA1D0BWP12T)     0.02      10.87 f
+  sub_27/add_1_root_add_1083_2/U1_24/CO (FA1D0BWP12T)     0.02      10.90 f
+  sub_27/add_1_root_add_1083_2/U1_25/CO (FA1D0BWP12T)     0.02      10.92 f
+  sub_27/add_1_root_add_1083_2/U1_26/CO (FA1D0BWP12T)     0.02      10.94 f
+  sub_27/add_1_root_add_1083_2/U1_27/CO (FA1D0BWP12T)     0.02      10.97 f
+  sub_27/add_1_root_add_1083_2/U1_28/CO (FA1D0BWP12T)     0.02      10.99 f
+  sub_27/add_1_root_add_1083_2/U1_29/CO (FA1D0BWP12T)     0.02      11.01 f
+  sub_27/add_1_root_add_1083_2/U1_30/Z (XOR3D1BWP12T)     0.03      11.05 r
+  sub_27/add_1_root_add_1083_2/SUM[30] (IntAdder_31_F0_uid60_DW01_add_0)
+                                                          0.00      11.05 r
+  sub_27/R[30] (IntAdder_31_F0_uid60)                     0.00      11.05 r
+  U2352/ZN (INVD1BWP12T)                                  0.01      11.05 f
+  U2345/Z (CKBD1BWP12T)                                   0.03      11.08 f
+  U3046/ZN (XNR2D1BWP12T)                                 0.03      11.11 r
+  sub_28/Y[4] (IntAdder_31_F0_uid62)                      0.00      11.11 r
+  sub_28/add_1_root_add_1118_2/B[4] (IntAdder_31_F0_uid62_DW01_add_0)
+                                                          0.00      11.11 r
+  sub_28/add_1_root_add_1118_2/U1_4/CO (FA1D0BWP12T)      0.03      11.15 r
+  sub_28/add_1_root_add_1118_2/U1_5/CO (FA1D0BWP12T)      0.02      11.17 r
+  sub_28/add_1_root_add_1118_2/U1_6/CO (FA1D0BWP12T)      0.02      11.20 r
+  sub_28/add_1_root_add_1118_2/U1_7/CO (FA1D0BWP12T)      0.02      11.22 r
+  sub_28/add_1_root_add_1118_2/U1_8/CO (FA1D0BWP12T)      0.02      11.24 r
+  sub_28/add_1_root_add_1118_2/U1_9/CO (FA1D0BWP12T)      0.02      11.27 r
+  sub_28/add_1_root_add_1118_2/U1_10/CO (FA1D0BWP12T)     0.02      11.29 r
+  sub_28/add_1_root_add_1118_2/U1_11/CO (FA1D0BWP12T)     0.02      11.31 r
+  sub_28/add_1_root_add_1118_2/U1_12/CO (FA1D0BWP12T)     0.02      11.34 r
+  sub_28/add_1_root_add_1118_2/U1_13/CO (FA1D0BWP12T)     0.02      11.36 r
+  sub_28/add_1_root_add_1118_2/U1_14/CO (FA1D0BWP12T)     0.02      11.38 r
+  sub_28/add_1_root_add_1118_2/U1_15/CO (FA1D0BWP12T)     0.02      11.40 r
+  sub_28/add_1_root_add_1118_2/U1_16/CO (FA1D0BWP12T)     0.02      11.43 r
+  sub_28/add_1_root_add_1118_2/U1_17/CO (FA1D0BWP12T)     0.02      11.45 r
+  sub_28/add_1_root_add_1118_2/U1_18/CO (FA1D0BWP12T)     0.02      11.47 r
+  sub_28/add_1_root_add_1118_2/U1_19/CO (FA1D0BWP12T)     0.02      11.50 r
+  sub_28/add_1_root_add_1118_2/U1_20/CO (FA1D0BWP12T)     0.02      11.52 r
+  sub_28/add_1_root_add_1118_2/U1_21/CO (FA1D0BWP12T)     0.02      11.54 r
+  sub_28/add_1_root_add_1118_2/U1_22/CO (FA1D0BWP12T)     0.02      11.57 r
+  sub_28/add_1_root_add_1118_2/U1_23/CO (FA1D0BWP12T)     0.02      11.59 r
+  sub_28/add_1_root_add_1118_2/U1_24/CO (FA1D0BWP12T)     0.02      11.61 r
+  sub_28/add_1_root_add_1118_2/U1_25/CO (FA1D0BWP12T)     0.02      11.64 r
+  sub_28/add_1_root_add_1118_2/U1_26/CO (FA1D0BWP12T)     0.02      11.66 r
+  sub_28/add_1_root_add_1118_2/U1_27/CO (FA1D0BWP12T)     0.02      11.68 r
+  sub_28/add_1_root_add_1118_2/U1_28/CO (FA1D0BWP12T)     0.02      11.71 r
+  sub_28/add_1_root_add_1118_2/U1_29/CO (FA1D0BWP12T)     0.02      11.73 r
+  sub_28/add_1_root_add_1118_2/U1_30/Z (XOR3D1BWP12T)     0.03      11.76 f
+  sub_28/add_1_root_add_1118_2/SUM[30] (IntAdder_31_F0_uid62_DW01_add_0)
+                                                          0.00      11.76 f
+  sub_28/R[30] (IntAdder_31_F0_uid62)                     0.00      11.76 f
+  U2353/ZN (INVD1BWP12T)                                  0.01      11.77 r
+  U2344/Z (CKBD1BWP12T)                                   0.03      11.80 r
+  U3041/ZN (XNR2D1BWP12T)                                 0.02      11.82 r
+  sub_29/Y[3] (IntAdder_31_F0_uid64)                      0.00      11.82 r
+  sub_29/add_1_root_add_1153_2/B[3] (IntAdder_31_F0_uid64_DW01_add_0)
+                                                          0.00      11.82 r
+  sub_29/add_1_root_add_1153_2/U1_3/CO (FA1D0BWP12T)      0.03      11.86 r
+  sub_29/add_1_root_add_1153_2/U1_4/CO (FA1D0BWP12T)      0.02      11.88 r
+  sub_29/add_1_root_add_1153_2/U1_5/CO (FA1D0BWP12T)      0.02      11.90 r
+  sub_29/add_1_root_add_1153_2/U1_6/CO (FA1D0BWP12T)      0.02      11.93 r
+  sub_29/add_1_root_add_1153_2/U1_7/CO (FA1D0BWP12T)      0.02      11.95 r
+  sub_29/add_1_root_add_1153_2/U1_8/CO (FA1D0BWP12T)      0.02      11.97 r
+  sub_29/add_1_root_add_1153_2/U1_9/CO (FA1D0BWP12T)      0.02      12.00 r
+  sub_29/add_1_root_add_1153_2/U1_10/CO (FA1D0BWP12T)     0.02      12.02 r
+  sub_29/add_1_root_add_1153_2/U1_11/CO (FA1D0BWP12T)     0.02      12.04 r
+  sub_29/add_1_root_add_1153_2/U1_12/CO (FA1D0BWP12T)     0.02      12.07 r
+  sub_29/add_1_root_add_1153_2/U1_13/CO (FA1D0BWP12T)     0.02      12.09 r
+  sub_29/add_1_root_add_1153_2/U1_14/CO (FA1D0BWP12T)     0.02      12.11 r
+  sub_29/add_1_root_add_1153_2/U1_15/CO (FA1D0BWP12T)     0.02      12.14 r
+  sub_29/add_1_root_add_1153_2/U1_16/CO (FA1D0BWP12T)     0.02      12.16 r
+  sub_29/add_1_root_add_1153_2/U1_17/CO (FA1D0BWP12T)     0.02      12.18 r
+  sub_29/add_1_root_add_1153_2/U1_18/CO (FA1D0BWP12T)     0.02      12.21 r
+  sub_29/add_1_root_add_1153_2/U1_19/CO (FA1D0BWP12T)     0.02      12.23 r
+  sub_29/add_1_root_add_1153_2/U1_20/CO (FA1D0BWP12T)     0.02      12.25 r
+  sub_29/add_1_root_add_1153_2/U1_21/CO (FA1D0BWP12T)     0.02      12.27 r
+  sub_29/add_1_root_add_1153_2/U1_22/CO (FA1D0BWP12T)     0.02      12.30 r
+  sub_29/add_1_root_add_1153_2/U1_23/CO (FA1D0BWP12T)     0.02      12.32 r
+  sub_29/add_1_root_add_1153_2/U1_24/CO (FA1D0BWP12T)     0.02      12.34 r
+  sub_29/add_1_root_add_1153_2/U1_25/CO (FA1D0BWP12T)     0.02      12.37 r
+  sub_29/add_1_root_add_1153_2/U1_26/CO (FA1D0BWP12T)     0.02      12.39 r
+  sub_29/add_1_root_add_1153_2/U1_27/CO (FA1D0BWP12T)     0.02      12.41 r
+  sub_29/add_1_root_add_1153_2/U1_28/CO (FA1D0BWP12T)     0.02      12.44 r
+  sub_29/add_1_root_add_1153_2/U1_29/CO (FA1D0BWP12T)     0.02      12.46 r
+  sub_29/add_1_root_add_1153_2/U1_30/Z (XOR3D1BWP12T)     0.02      12.48 f
+  sub_29/add_1_root_add_1153_2/SUM[30] (IntAdder_31_F0_uid64_DW01_add_0)
+                                                          0.00      12.48 f
+  sub_29/R[30] (IntAdder_31_F0_uid64)                     0.00      12.48 f
+  U2643/ZN (OAI22D1BWP12T)                                0.02      12.50 r
+  PositEncoder/Guard (PositFastEncoder_32_2_F0_uid68)     0.00      12.50 r
+  PositEncoder/RegimeGenerator/X[0] (RightShifterSticky31_by_max_31_F0_uid70)
+                                                          0.00      12.50 r
+  PositEncoder/RegimeGenerator/U6/ZN (NR4D0BWP12T)        0.01      12.51 f
+  PositEncoder/RegimeGenerator/U4/ZN (ND2D1BWP12T)        0.01      12.52 r
+  PositEncoder/RegimeGenerator/U37/ZN (IND4D1BWP12T)      0.02      12.54 r
+  PositEncoder/RegimeGenerator/U36/ZN (AOI222D1BWP12T)
+                                                          0.02      12.56 f
+  PositEncoder/RegimeGenerator/U119/ZN (ND4D1BWP12T)      0.01      12.57 r
+  PositEncoder/RegimeGenerator/Sticky (RightShifterSticky31_by_max_31_F0_uid70)
+                                                          0.00      12.57 r
+  PositEncoder/U22/ZN (NR4D0BWP12T)                       0.01      12.58 f
+  PositEncoder/U21/ZN (INR2D1BWP12T)                      0.02      12.60 r
+  PositEncoder/add_1340/B[0] (PositFastEncoder_32_2_F0_uid68_DW01_add_0)
+                                                          0.00      12.60 r
+  PositEncoder/add_1340/U43/Z (AN2D1BWP12T)               0.02      12.61 r
+  PositEncoder/add_1340/U15/Z (AN2D1BWP12T)               0.02      12.63 r
+  PositEncoder/add_1340/U16/Z (AN2D1BWP12T)               0.02      12.65 r
+  PositEncoder/add_1340/U17/Z (AN2D1BWP12T)               0.02      12.67 r
+  PositEncoder/add_1340/U18/Z (AN2D1BWP12T)               0.02      12.69 r
+  PositEncoder/add_1340/U19/Z (AN2D1BWP12T)               0.02      12.71 r
+  PositEncoder/add_1340/U20/Z (AN2D1BWP12T)               0.02      12.72 r
+  PositEncoder/add_1340/U14/Z (AN2D1BWP12T)               0.02      12.74 r
+  PositEncoder/add_1340/U21/Z (AN2D1BWP12T)               0.02      12.76 r
+  PositEncoder/add_1340/U44/Z (AN2D1BWP12T)               0.02      12.78 r
+  PositEncoder/add_1340/U45/Z (AN2D1BWP12T)               0.02      12.80 r
+  PositEncoder/add_1340/U46/Z (AN2D1BWP12T)               0.02      12.82 r
+  PositEncoder/add_1340/U5/Z (AN2D1BWP12T)                0.02      12.83 r
+  PositEncoder/add_1340/U12/Z (AN2D1BWP12T)               0.02      12.85 r
+  PositEncoder/add_1340/U6/Z (AN2D1BWP12T)                0.02      12.87 r
+  PositEncoder/add_1340/U10/Z (AN2D1BWP12T)               0.02      12.89 r
+  PositEncoder/add_1340/U11/Z (AN2D1BWP12T)               0.02      12.91 r
+  PositEncoder/add_1340/U2/Z (AN2D1BWP12T)                0.02      12.93 r
+  PositEncoder/add_1340/U3/Z (AN2D1BWP12T)                0.02      12.94 r
+  PositEncoder/add_1340/U4/Z (AN2D1BWP12T)                0.02      12.96 r
+  PositEncoder/add_1340/U13/Z (AN2D1BWP12T)               0.02      12.98 r
+  PositEncoder/add_1340/U7/Z (AN2D1BWP12T)                0.02      13.00 r
+  PositEncoder/add_1340/U1/Z (AN2D1BWP12T)                0.02      13.02 r
+  PositEncoder/add_1340/U8/Z (AN2D1BWP12T)                0.02      13.04 r
+  PositEncoder/add_1340/U23/Z (AN2D1BWP12T)               0.02      13.05 r
+  PositEncoder/add_1340/U9/Z (AN2D1BWP12T)                0.02      13.07 r
+  PositEncoder/add_1340/U22/Z (AN2D1BWP12T)               0.02      13.09 r
+  PositEncoder/add_1340/U52/Z (AN2D1BWP12T)               0.02      13.11 r
+  PositEncoder/add_1340/U42/Z (AN2D1BWP12T)               0.02      13.13 r
+  PositEncoder/add_1340/U61/ZN (ND2D1BWP12T)              0.01      13.14 f
+  PositEncoder/add_1340/U60/ZN (XNR2D1BWP12T)             0.02      13.16 r
+  PositEncoder/add_1340/SUM[30] (PositFastEncoder_32_2_F0_uid68_DW01_add_0)
+                                                          0.00      13.16 r
+  PositEncoder/U41/Z (AN2D1BWP12T)                        0.01      13.17 r
+  PositEncoder/R[30] (PositFastEncoder_32_2_F0_uid68)     0.00      13.17 r
+  R[30] (out)                                             0.00      13.17 r
+  data arrival time                                                 13.17
+
+  max_delay                                              20.00      20.00
+  output external delay                                   0.00      20.00
+  data required time                                                20.00
+  --------------------------------------------------------------------------
+  data required time                                                20.00
+  data arrival time                                                -13.17
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.83
+
+
+1

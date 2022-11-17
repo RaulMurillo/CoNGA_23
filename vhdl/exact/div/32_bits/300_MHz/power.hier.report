@@ -1,0 +1,157 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : PositDiv
+Version: O-2018.06-SP4
+Date   : Tue Nov 15 04:08:31 2022
+****************************************
+
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+PositDiv               ZeroWireload      tcbn45gsbwp12tml
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+PositDiv                                  9.859   20.293 2.63e+07   56.487 100.0
+  sub_2_root_sub_2589_3 (PositDiv_DW01_sub_8)
+                                       3.51e-02 7.80e-02 1.76e+05    0.289   0.5
+  PositEncoder (PositFastEncoder_32_2_F0_uid80)
+                                          0.295    0.604 8.79e+05    1.779   3.1
+    add_2448 (PositFastEncoder_32_2_F0_uid80_DW01_add_9)
+                                       5.89e-02    0.159 2.24e+05    0.443   0.8
+    RegimeGenerator (RightShifterSticky31_by_max_31_F0_uid82)
+                                          0.219    0.384 5.30e+05    1.133   2.0
+  FracDivider (FixDiv_1_27_F0_uid12)      9.338   19.193 2.36e+07   52.086  92.2
+    correct_quotient (IntAdder_33_F0_uid78)
+                                          0.142    0.291 6.17e+05    1.051   1.9
+      add_1_root_add_1434_2 (IntAdder_33_F0_uid78_DW01_add_0)
+                                          0.142    0.291 6.00e+05    1.034   1.8
+    sub_quotient (IntAdder_33_F0_uid76)
+                                          0.200    0.355 4.02e+05    0.957   1.7
+      add_1_root_add_1399_2 (IntAdder_33_F0_uid76_DW01_add_0)
+                                          0.200    0.355 4.02e+05    0.957   1.7
+    sub_30 (IntAdder_29_F0_uid74)         0.282    0.554 5.71e+05    1.407   2.5
+      add_1_root_add_1364_2 (IntAdder_29_F0_uid74_DW01_add_6)
+                                          0.282    0.554 5.71e+05    1.407   2.5
+    sub_29 (IntAdder_29_F0_uid72)         0.279    0.525 5.45e+05    1.349   2.4
+      add_1_root_add_1329_2 (IntAdder_29_F0_uid72_DW01_add_0)
+                                          0.277    0.523 5.45e+05    1.345   2.4
+    sub_28 (IntAdder_29_F0_uid70)         0.261    0.479 5.00e+05    1.241   2.2
+      add_1_root_add_1294_2 (IntAdder_29_F0_uid70_DW01_add_0)
+                                          0.261    0.479 5.00e+05    1.241   2.2
+    sub_27 (IntAdder_29_F0_uid68)         0.258    0.459 5.03e+05    1.219   2.2
+      add_1_root_add_1259_2 (IntAdder_29_F0_uid68_DW01_add_0)
+                                          0.258    0.459 5.03e+05    1.219   2.2
+    sub_26 (IntAdder_29_F0_uid66)         0.268    0.521 5.38e+05    1.328   2.4
+      add_1_root_add_1224_2 (IntAdder_29_F0_uid66_DW01_add_0)
+                                          0.267    0.520 5.38e+05    1.324   2.3
+    sub_25 (IntAdder_29_F0_uid64)         0.264    0.501 5.05e+05    1.269   2.2
+      add_1_root_add_1189_2 (IntAdder_29_F0_uid64_DW01_add_1)
+                                          0.264    0.501 5.05e+05    1.269   2.2
+    sub_24 (IntAdder_29_F0_uid62)         0.253    0.464 4.95e+05    1.212   2.1
+      add_1_root_add_1154_2 (IntAdder_29_F0_uid62_DW01_add_1)
+                                          0.253    0.464 4.95e+05    1.212   2.1
+    sub_23 (IntAdder_29_F0_uid60)         0.286    0.548 5.82e+05    1.415   2.5
+      add_1_root_add_1119_2 (IntAdder_29_F0_uid60_DW01_add_4)
+                                          0.284    0.546 5.81e+05    1.411   2.5
+    sub_22 (IntAdder_29_F0_uid58)         0.252    0.475 5.06e+05    1.233   2.2
+      add_1_root_add_1084_2 (IntAdder_29_F0_uid58_DW01_add_1)
+                                          0.252    0.475 5.06e+05    1.233   2.2
+    sub_21 (IntAdder_29_F0_uid56)         0.256    0.479 5.16e+05    1.251   2.2
+      add_1_root_add_1049_2 (IntAdder_29_F0_uid56_DW01_add_0)
+                                          0.256    0.479 5.16e+05    1.251   2.2
+    sub_20 (IntAdder_29_F0_uid54)         0.251    0.483 5.12e+05    1.247   2.2
+      add_1_root_add_1014_2 (IntAdder_29_F0_uid54_DW01_add_1)
+                                          0.251    0.483 5.12e+05    1.247   2.2
+    sub_19 (IntAdder_29_F0_uid52)         0.226    0.417 4.40e+05    1.082   1.9
+      add_1_root_add_979_2 (IntAdder_29_F0_uid52_DW01_add_0)
+                                          0.224    0.416 4.39e+05    1.079   1.9
+    sub_18 (IntAdder_29_F0_uid50)         0.243    0.493 5.25e+05    1.260   2.2
+      add_1_root_add_944_2 (IntAdder_29_F0_uid50_DW01_add_1)
+                                          0.243    0.493 5.25e+05    1.260   2.2
+    sub_17 (IntAdder_29_F0_uid48)         0.233    0.439 4.81e+05    1.153   2.0
+      add_1_root_add_909_2 (IntAdder_29_F0_uid48_DW01_add_0)
+                                          0.232    0.438 4.81e+05    1.151   2.0
+    sub_16 (IntAdder_29_F0_uid46)         0.220    0.420 4.56e+05    1.096   1.9
+      add_1_root_add_874_2 (IntAdder_29_F0_uid46_DW01_add_0)
+                                          0.219    0.419 4.55e+05    1.093   1.9
+    sub_15 (IntAdder_29_F0_uid44)         0.225    0.400 4.48e+05    1.073   1.9
+      add_1_root_add_839_2 (IntAdder_29_F0_uid44_DW01_add_1)
+                                          0.225    0.400 4.48e+05    1.073   1.9
+    sub_14 (IntAdder_29_F0_uid42)         0.226    0.415 4.64e+05    1.105   2.0
+      add_1_root_add_804_2 (IntAdder_29_F0_uid42_DW01_add_1)
+                                          0.226    0.415 4.64e+05    1.105   2.0
+    sub_13 (IntAdder_29_F0_uid40)         0.221    0.400 4.57e+05    1.078   1.9
+      add_1_root_add_769_2 (IntAdder_29_F0_uid40_DW01_add_1)
+                                          0.221    0.400 4.57e+05    1.078   1.9
+    sub_12 (IntAdder_29_F0_uid38)         0.218    0.412 4.79e+05    1.110   2.0
+      add_1_root_add_734_2 (IntAdder_29_F0_uid38_DW01_add_0)
+                                          0.218    0.412 4.79e+05    1.110   2.0
+    sub_11 (IntAdder_29_F0_uid36)         0.231    0.420 4.96e+05    1.147   2.0
+      add_1_root_add_699_2 (IntAdder_29_F0_uid36_DW01_add_0)
+                                          0.231    0.420 4.96e+05    1.147   2.0
+    sub_10 (IntAdder_29_F0_uid34)         0.219    0.394 4.68e+05    1.081   1.9
+      add_1_root_add_664_2 (IntAdder_29_F0_uid34_DW01_add_0)
+                                          0.218    0.393 4.67e+05    1.078   1.9
+    sub_9 (IntAdder_29_F0_uid32)          0.210    0.387 4.72e+05    1.068   1.9
+      add_1_root_add_629_2 (IntAdder_29_F0_uid32_DW01_add_0)
+                                          0.210    0.387 4.72e+05    1.068   1.9
+    sub_8 (IntAdder_29_F0_uid30)          0.225    0.421 5.28e+05    1.174   2.1
+      add_1_root_add_594_2 (IntAdder_29_F0_uid30_DW01_add_0)
+                                          0.225    0.420 5.27e+05    1.172   2.1
+    sub_7 (IntAdder_29_F0_uid28)          0.210    0.385 5.11e+05    1.107   2.0
+      add_1_root_add_559_2 (IntAdder_29_F0_uid28_DW01_add_0)
+                                          0.210    0.384 5.11e+05    1.105   2.0
+    sub_6 (IntAdder_29_F0_uid26)          0.189    0.355 4.72e+05    1.016   1.8
+      add_1_root_add_524_2 (IntAdder_29_F0_uid26_DW01_add_0)
+                                          0.189    0.355 4.72e+05    1.016   1.8
+    sub_5 (IntAdder_29_F0_uid24)          0.208    0.377 5.25e+05    1.110   2.0
+      add_1_root_add_489_2 (IntAdder_29_F0_uid24_DW01_add_1)
+                                          0.208    0.377 5.24e+05    1.108   2.0
+    sub_4 (IntAdder_29_F0_uid22)          0.176    0.310 4.48e+05    0.934   1.7
+      add_1_root_add_454_2 (IntAdder_29_F0_uid22_DW01_add_0)
+                                          0.176    0.310 4.48e+05    0.934   1.7
+    sub_3 (IntAdder_29_F0_uid20)          0.167    0.315 4.73e+05    0.954   1.7
+      add_1_root_add_419_2 (IntAdder_29_F0_uid20_DW01_add_1)
+                                          0.167    0.315 4.73e+05    0.954   1.7
+    sub_2 (IntAdder_29_F0_uid18)          0.153    0.285 4.51e+05    0.889   1.6
+      add_1_root_add_384_2 (IntAdder_29_F0_uid18_DW01_add_2)
+                                          0.153    0.285 4.51e+05    0.889   1.6
+    sub_1 (IntAdder_29_F0_uid16)          0.144    0.269 4.69e+05    0.881   1.6
+      add_1_root_add_349_2 (IntAdder_29_F0_uid16_DW01_add_1)
+                                          0.144    0.269 4.69e+05    0.881   1.6
+    sub_0 (IntAdder_29_F0_uid14)          0.109    0.201 4.88e+05    0.797   1.4
+      add_1_root_add_314_2 (IntAdder_29_F0_uid14_DW01_add_0)
+                                          0.109    0.201 4.88e+05    0.797   1.4
+  Y_decoder (PositFastDecoder_32_2_F0_uid8)
+                                       7.16e-02    0.143 8.12e+05    1.027   1.8
+    RegimeCounter (Normalizer_ZO_30_30_30_F0_uid10)
+                                       6.90e-02    0.136 7.83e+05    0.988   1.7
+  X_decoder (PositFastDecoder_32_2_F0_uid4)
+                                       6.21e-02    0.123 7.29e+05    0.914   1.6
+    RegimeCounter (Normalizer_ZO_30_30_30_F0_uid6)
+                                       5.94e-02    0.117 7.00e+05    0.876   1.6
+1

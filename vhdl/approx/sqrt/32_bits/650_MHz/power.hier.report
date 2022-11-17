@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : ApproxPositSqrt
+Version: O-2018.06-SP4
+Date   : Thu Nov 17 02:19:42 2022
+****************************************
+
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+
+Operating Conditions: MLCOM   Library: tcbn45gsbwp12tml
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ApproxPositSqrt        ZeroWireload      tcbn45gsbwp12tml
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+ApproxPositSqrt                           0.137    0.269 1.25e+06    1.654 100.0
+  R_encoding (PositEncoder_32_2_F0_uid8)
+                                       7.28e-02    0.144 7.26e+05    0.943  57.0
+    add_303 (PositEncoder_32_2_F0_uid8_DW01_add_1)
+                                       7.26e-03 2.80e-02 1.35e+05    0.170  10.3
+    add_307 (PositEncoder_32_2_F0_uid8_DW01_add_0)
+                                       2.76e-03 1.58e-02 1.14e+05    0.132   8.0
+    RegimeGenerator (RightShifterSticky32_by_max_30_F0_uid10)
+                                       5.17e-02 6.35e-02 2.75e+05    0.390  23.6
+  X_decoder (PositDecoder_32_2_F0_uid4)
+                                       6.40e-02    0.124 5.19e+05    0.707  42.8
+    add_130 (PositDecoder_32_2_F0_uid4_DW01_add_1)
+                                       1.16e-02 2.89e-02 1.61e+05    0.201  12.2
+    RegimeCounter (Normalizer_ZO_30_30_30_F0_uid6)
+                                       4.40e-02 7.11e-02 2.25e+05    0.340  20.6
+1

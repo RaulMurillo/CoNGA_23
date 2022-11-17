@@ -1,0 +1,252 @@
+[
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 0,
+		"Area": 2207.587197,
+		"Power": 2.7904,
+		"Delay": 3.21,
+		"Energy": 8957.184,
+		"ADP": 7086.35490237
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 50,
+		"Area": 2210.879992,
+		"Power": 3.4421,
+		"Delay": 3.24,
+		"Energy": 11152.404,
+		"ADP": 7163.25117408
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 100,
+		"Area": 2210.879992,
+		"Power": 3.4421,
+		"Delay": 3.24,
+		"Energy": 11152.404,
+		"ADP": 7163.25117408
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 150,
+		"Area": 2210.879992,
+		"Power": 3.4424,
+		"Delay": 3.24,
+		"Energy": 11153.376,
+		"ADP": 7163.25117408
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 200,
+		"Area": 2210.879992,
+		"Power": 3.4424,
+		"Delay": 3.24,
+		"Energy": 11153.376,
+		"ADP": 7163.25117408
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 250,
+		"Area": 2210.879992,
+		"Power": 3.4386,
+		"Delay": 3.24,
+		"Energy": 11141.064,
+		"ADP": 7163.25117408
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 300,
+		"Area": 2210.879992,
+		"Power": 3.4405,
+		"Delay": 3.24,
+		"Energy": 11147.22,
+		"ADP": 7163.25117408
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 350,
+		"Area": 2239.339191,
+		"Power": 2.9209,
+		"Delay": 2.86,
+		"Energy": 8353.774,
+		"ADP": 6404.51008626
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 400,
+		"Area": 2367.287995,
+		"Power": 2.9108,
+		"Delay": 2.50,
+		"Energy": 7277.0,
+		"ADP": 5918.2199875
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 450,
+		"Area": 2370.580794,
+		"Power": 2.8905,
+		"Delay": 2.22,
+		"Energy": 6416.91,
+		"ADP": 5262.68936268
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 500,
+		"Area": 2462.308795,
+		"Power": 3.0277,
+		"Delay": 2.00,
+		"Energy": 6055.4,
+		"ADP": 4924.61759
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 550,
+		"Area": 2499.470396,
+		"Power": 3.0390,
+		"Delay": 1.82,
+		"Energy": 5530.98,
+		"ADP": 4549.03612072
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 600,
+		"Area": 2638.473601,
+		"Power": 3.3197,
+		"Delay": 1.67,
+		"Energy": 5543.899,
+		"ADP": 4406.25091367
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 650,
+		"Area": 2907.777603,
+		"Power": 3.8723,
+		"Delay": 1.54,
+		"Energy": 5963.342,
+		"ADP": 4477.97750862
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 700,
+		"Area": 3407.812819,
+		"Power": 5.0210,
+		"Delay": 1.43,
+		"Energy": 7180.03,
+		"ADP": 4873.17233117
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 750,
+		"Area": 2668.579199,
+		"Power": 3.3399,
+		"Delay": 1.33,
+		"Energy": 4442.067,
+		"ADP": 3549.21033467
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 800,
+		"Area": 2847.096008,
+		"Power": 3.5913,
+		"Delay": 1.25,
+		"Energy": 4489.125,
+		"ADP": 3558.87001
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 850,
+		"Area": 2937.177608,
+		"Power": 3.8354,
+		"Delay": 1.18,
+		"Energy": 4525.772,
+		"ADP": 3465.86957744
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 900,
+		"Area": 3048.897607,
+		"Power": 3.9584,
+		"Delay": 1.11,
+		"Energy": 4393.824,
+		"ADP": 3384.27634377
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 950,
+		"Area": 3725.097626,
+		"Power": 5.4134,
+		"Delay": 1.05,
+		"Energy": 5684.07,
+		"ADP": 3911.3525073
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 1000,
+		"Area": 3731.683229,
+		"Power": 5.6281,
+		"Delay": 1.00,
+		"Energy": 5628.1,
+		"ADP": 3731.683229
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 1050,
+		"Area": 4014.864036,
+		"Power": 6.1858,
+		"Delay": 0.95,
+		"Energy": 5876.51,
+		"ADP": 3814.1208342
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 1100,
+		"Area": 4197.379236,
+		"Power": 6.5187,
+		"Delay": 0.91,
+		"Energy": 5932.017,
+		"ADP": 3819.61510476
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 1150,
+		"Area": 4639.555249,
+		"Power": 7.5788,
+		"Delay": 0.87,
+		"Energy": 6593.556,
+		"ADP": 4036.41306663
+	},
+	{
+		"Design": "approx_mul",
+		"Bits": 32,
+		"Freq.": 1200,
+		"Area": 5354.563259,
+		"Power": 8.7805,
+		"Delay": 0.84,
+		"Energy": 7375.62,
+		"ADP": 4497.83313756
+	}
+]

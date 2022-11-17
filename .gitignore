@@ -19,3 +19,11 @@ build/
 
 # Python virtual envs
 venv/
+
+# Synopsys DC files
+ARCH/
+ENTI/
+*.log
+*.syn
+*.svf
+*.mr

@@ -1,0 +1,106 @@
+ 
+****************************************
+Report : area
+Design : PositSqrt
+Version: O-2018.06-SP4
+Date   : Wed Nov 16 19:54:18 2022
+****************************************
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+Number of ports:                         5916
+Number of nets:                         17373
+Number of cells:                        11614
+Number of combinational cells:          11551
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                       2873
+Number of references:                     137
+
+Combinational area:              17493.235389
+Buf/Inv area:                     2545.334460
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 17493.235389
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  -----------------------------------------
+PositSqrt                         17493.2354    100.0   2587.9056     0.0000  0.0000  PositSqrt
+PositEncoder                        742.7616      4.2    104.6640     0.0000  0.0000  PositFastEncoder_32_2_F0_uid68
+PositEncoder/RegimeGenerator        389.0208      2.2    389.0208     0.0000  0.0000  RightShifterSticky31_by_max_31_F0_uid70
+PositEncoder/add_1340               249.0768      1.4    249.0768     0.0000  0.0000  PositFastEncoder_32_2_F0_uid68_DW01_add_1
+X_decoder                           982.9008      5.6     44.9232     0.0000  0.0000  PositFastDecoder_32_2_F0_uid4
+X_decoder/RegimeCounter             937.9776      5.4    937.9776     0.0000  0.0000  Normalizer_ZO_30_30_30_F0_uid6
+sub_1                               425.9472      2.4      1.4112     0.0000  0.0000  IntAdder_31_F0_uid8
+sub_1/add_1_root_add_173_2          424.5360      2.4    424.5360     0.0000  0.0000  IntAdder_31_F0_uid8_DW01_add_1
+sub_10                              359.3856      2.1      0.0000     0.0000  0.0000  IntAdder_31_F0_uid26
+sub_10/add_1_root_add_488_2         359.3856      2.1    359.3856     0.0000  0.0000  IntAdder_31_F0_uid26_DW01_add_0
+sub_11                              389.7264      2.2      0.0000     0.0000  0.0000  IntAdder_31_F0_uid28
+sub_11/add_1_root_add_523_2         389.7264      2.2    389.7264     0.0000  0.0000  IntAdder_31_F0_uid28_DW01_add_0
+sub_12                              395.6064      2.3      0.0000     0.0000  0.0000  IntAdder_31_F0_uid30
+sub_12/add_1_root_add_558_2         395.6064      2.3    395.6064     0.0000  0.0000  IntAdder_31_F0_uid30_DW01_add_5
+sub_13                              423.1248      2.4      0.0000     0.0000  0.0000  IntAdder_31_F0_uid32
+sub_13/add_1_root_add_593_2         423.1248      2.4    423.1248     0.0000  0.0000  IntAdder_31_F0_uid32_DW01_add_0
+sub_14                              432.5328      2.5      0.0000     0.0000  0.0000  IntAdder_31_F0_uid34
+sub_14/add_1_root_add_628_2         432.5328      2.5    432.5328     0.0000  0.0000  IntAdder_31_F0_uid34_DW01_add_5
+sub_15                              466.4016      2.7      0.0000     0.0000  0.0000  IntAdder_31_F0_uid36
+sub_15/add_1_root_add_663_2         466.4016      2.7    466.4016     0.0000  0.0000  IntAdder_31_F0_uid36_DW01_add_1
+sub_16                              467.3424      2.7      0.0000     0.0000  0.0000  IntAdder_31_F0_uid38
+sub_16/add_1_root_add_698_2         467.3424      2.7    467.3424     0.0000  0.0000  IntAdder_31_F0_uid38_DW01_add_2
+sub_17                              472.0464      2.7      0.0000     0.0000  0.0000  IntAdder_31_F0_uid40
+sub_17/add_1_root_add_733_2         472.0464      2.7    472.0464     0.0000  0.0000  IntAdder_31_F0_uid40_DW01_add_1
+sub_18                              469.9296      2.7      0.0000     0.0000  0.0000  IntAdder_31_F0_uid42
+sub_18/add_1_root_add_768_2         469.9296      2.7    469.9296     0.0000  0.0000  IntAdder_31_F0_uid42_DW01_add_0
+sub_19                              491.5680      2.8      0.0000     0.0000  0.0000  IntAdder_31_F0_uid44
+sub_19/add_1_root_add_803_2         491.5680      2.8    491.5680     0.0000  0.0000  IntAdder_31_F0_uid44_DW01_add_0
+sub_2                               407.6016      2.3      0.0000     0.0000  0.0000  IntAdder_31_F0_uid10
+sub_2/add_1_root_add_208_2          407.6016      2.3    407.6016     0.0000  0.0000  IntAdder_31_F0_uid10_DW01_add_3
+sub_20                              528.4944      3.0      0.0000     0.0000  0.0000  IntAdder_31_F0_uid46
+sub_20/add_1_root_add_838_2         528.4944      3.0    528.4944     0.0000  0.0000  IntAdder_31_F0_uid46_DW01_add_5
+sub_21                              516.9696      3.0      0.0000     0.0000  0.0000  IntAdder_31_F0_uid48
+sub_21/add_1_root_add_873_2         516.9696      3.0    516.9696     0.0000  0.0000  IntAdder_31_F0_uid48_DW01_add_1
+sub_22                              478.3968      2.7      0.0000     0.0000  0.0000  IntAdder_31_F0_uid50
+sub_22/add_1_root_add_908_2         478.3968      2.7    478.3968     0.0000  0.0000  IntAdder_31_F0_uid50_DW01_add_1
+sub_23                              520.7328      3.0      0.0000     0.0000  0.0000  IntAdder_31_F0_uid52
+sub_23/add_1_root_add_943_2         520.7328      3.0    520.7328     0.0000  0.0000  IntAdder_31_F0_uid52_DW01_add_6
+sub_24                              565.6560      3.2      0.0000     0.0000  0.0000  IntAdder_31_F0_uid54
+sub_24/add_1_root_add_978_2         565.6560      3.2    565.6560     0.0000  0.0000  IntAdder_31_F0_uid54_DW01_add_1
+sub_25                              553.4256      3.2      0.0000     0.0000  0.0000  IntAdder_31_F0_uid56
+sub_25/add_1_root_add_1013_2        553.4256      3.2    553.4256     0.0000  0.0000  IntAdder_31_F0_uid56_DW01_add_5
+sub_26                              540.0192      3.1      0.0000     0.0000  0.0000  IntAdder_31_F0_uid58
+sub_26/add_1_root_add_1048_2        540.0192      3.1    540.0192     0.0000  0.0000  IntAdder_31_F0_uid58_DW01_add_0
+sub_27                              538.6080      3.1      0.0000     0.0000  0.0000  IntAdder_31_F0_uid60
+sub_27/add_1_root_add_1083_2        538.6080      3.1    538.6080     0.0000  0.0000  IntAdder_31_F0_uid60_DW01_add_1
+sub_28                              546.6048      3.1      0.0000     0.0000  0.0000  IntAdder_31_F0_uid62
+sub_28/add_1_root_add_1118_2        546.6048      3.1    546.6048     0.0000  0.0000  IntAdder_31_F0_uid62_DW01_add_6
+sub_29                              484.2768      2.8      0.0000     0.0000  0.0000  IntAdder_31_F0_uid64
+sub_29/add_1_root_add_1153_2        484.2768      2.8    484.2768     0.0000  0.0000  IntAdder_31_F0_uid64_DW01_add_1
+sub_3                               449.4672      2.6      0.0000     0.0000  0.0000  IntAdder_31_F0_uid12
+sub_3/add_1_root_add_243_2          449.4672      2.6    449.4672     0.0000  0.0000  IntAdder_31_F0_uid12_DW01_add_5
+sub_4                               415.5984      2.4      0.0000     0.0000  0.0000  IntAdder_31_F0_uid14
+sub_4/add_1_root_add_278_2          415.5984      2.4    415.5984     0.0000  0.0000  IntAdder_31_F0_uid14_DW01_add_7
+sub_5                               380.0832      2.2      0.0000     0.0000  0.0000  IntAdder_31_F0_uid16
+sub_5/add_1_root_add_313_2          380.0832      2.2    380.0832     0.0000  0.0000  IntAdder_31_F0_uid16_DW01_add_7
+sub_6                               365.5008      2.1      0.0000     0.0000  0.0000  IntAdder_31_F0_uid18
+sub_6/add_1_root_add_348_2          365.5008      2.1    365.5008     0.0000  0.0000  IntAdder_31_F0_uid18_DW01_add_7
+sub_7                               391.1376      2.2      0.0000     0.0000  0.0000  IntAdder_31_F0_uid20
+sub_7/add_1_root_add_383_2          391.1376      2.2    391.1376     0.0000  0.0000  IntAdder_31_F0_uid20_DW01_add_5
+sub_8                               347.1552      2.0      0.0000     0.0000  0.0000  IntAdder_31_F0_uid22
+sub_8/add_1_root_add_418_2          347.1552      2.0    347.1552     0.0000  0.0000  IntAdder_31_F0_uid22_DW01_add_4
+sub_9                               356.3280      2.0      0.0000     0.0000  0.0000  IntAdder_31_F0_uid24
+sub_9/add_1_root_add_453_2          356.3280      2.0    356.3280     0.0000  0.0000  IntAdder_31_F0_uid24_DW01_add_0
+--------------------------------  ----------  -------  ----------  ---------  ------  -----------------------------------------
+Total                                                  17493.2354     0.0000  0.0000
+
+1

@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : area
+Design : ApproxPositSqrt
+Version: O-2018.06-SP4
+Date   : Thu Nov 17 02:43:11 2022
+****************************************
+
+Library(s) Used:
+
+    tcbn45gsbwp12tml (File: /home/ramuri01/synLibs/TSMCHOME/digital/Back_End/milkyway/tcbn45gsbwp12t_200a/frame_only_VHV_0d5_0/tcbn45gsbwp12t/LM/tcbn45gsbwp12tml.db)
+
+Number of ports:                          660
+Number of nets:                          1788
+Number of cells:                         1292
+Number of combinational cells:           1285
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        269
+Number of references:                       5
+
+Combinational area:               2360.702417
+Buf/Inv area:                      303.172806
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2360.702417
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------------------------
+ApproxPositSqrt                   2360.7024    100.0     3.0576     0.0000  0.0000  ApproxPositSqrt
+R_encoding                        1110.8496     47.1   211.4448     0.0000  0.0000  PositEncoder_32_2_F0_uid8
+R_encoding/RegimeGenerator         504.0336     21.4   504.0336     0.0000  0.0000  RightShifterSticky32_by_max_30_F0_uid10
+R_encoding/add_303                 186.7488      7.9   186.7488     0.0000  0.0000  PositEncoder_32_2_F0_uid8_DW01_add_1
+R_encoding/add_307                 208.6224      8.8   208.6224     0.0000  0.0000  PositEncoder_32_2_F0_uid8_DW01_add_0
+X_decoder                         1246.7952     52.8   294.4704     0.0000  0.0000  PositDecoder_32_2_F0_uid4
+X_decoder/RegimeCounter            661.8528     28.0   661.8528     0.0000  0.0000  Normalizer_ZO_30_30_30_F0_uid6
+X_decoder/add_130                  290.4720     12.3   290.4720     0.0000  0.0000  PositDecoder_32_2_F0_uid4_DW01_add_1
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------------------------
+Total                                                 2360.7024     0.0000  0.0000
+
+1
