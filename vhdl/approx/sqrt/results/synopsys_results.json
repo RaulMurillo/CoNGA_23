@@ -2,7 +2,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 0,
+		"Freq": 0,
+		"Slack": "MET",
 		"Area": 1396.382396,
 		"Power": 1.4718,
 		"Delay": 2.25,
@@ -12,7 +13,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 50,
+		"Freq": 50,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9010,
 		"Delay": 2.33,
@@ -22,7 +24,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 100,
+		"Freq": 100,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9010,
 		"Delay": 2.33,
@@ -32,7 +35,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 150,
+		"Freq": 150,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9017,
 		"Delay": 2.33,
@@ -42,7 +46,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 200,
+		"Freq": 200,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9007,
 		"Delay": 2.33,
@@ -52,7 +57,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 250,
+		"Freq": 250,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9010,
 		"Delay": 2.33,
@@ -62,7 +68,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 300,
+		"Freq": 300,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9010,
 		"Delay": 2.33,
@@ -72,7 +79,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 350,
+		"Freq": 350,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9010,
 		"Delay": 2.33,
@@ -82,7 +90,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 400,
+		"Freq": 400,
+		"Slack": "MET",
 		"Area": 1406.731193,
 		"Power": 1.9010,
 		"Delay": 2.33,
@@ -92,7 +101,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 450,
+		"Freq": 450,
+		"Slack": "MET",
 		"Area": 1406.260793,
 		"Power": 1.6799,
 		"Delay": 2.12,
@@ -102,7 +112,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 500,
+		"Freq": 500,
+		"Slack": "MET",
 		"Area": 1415.198393,
 		"Power": 1.6072,
 		"Delay": 2.00,
@@ -112,7 +123,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 550,
+		"Freq": 550,
+		"Slack": "MET",
 		"Area": 1462.708794,
 		"Power": 1.6556,
 		"Delay": 1.82,
@@ -122,27 +134,30 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 600,
+		"Freq": 600,
+		"Slack": "MET",
 		"Area": 1450.243194,
 		"Power": 1.6066,
 		"Delay": 1.66,
-		"Energy": 2666.956,
-		"ADP": 2407.40370204
+		"Energy": 2666.9559999999997,
+		"ADP": 2407.4037020399996
 	},
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 650,
+		"Freq": 650,
+		"Slack": "MET",
 		"Area": 1486.463996,
 		"Power": 1.6544,
 		"Delay": 1.54,
-		"Energy": 2547.776,
+		"Energy": 2547.7760000000003,
 		"ADP": 2289.15455384
 	},
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 700,
+		"Freq": 700,
+		"Slack": "MET",
 		"Area": 1549.262397,
 		"Power": 1.7209,
 		"Delay": 1.43,
@@ -152,47 +167,52 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 750,
+		"Freq": 750,
+		"Slack": "MET",
 		"Area": 1612.766396,
 		"Power": 1.8654,
 		"Delay": 1.33,
 		"Energy": 2480.982,
-		"ADP": 2144.97930668
+		"ADP": 2144.9793066800003
 	},
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 800,
+		"Freq": 800,
+		"Slack": "MET",
 		"Area": 1729.190402,
 		"Power": 2.1574,
 		"Delay": 1.25,
-		"Energy": 2696.75,
-		"ADP": 2161.4880025
+		"Energy": 2696.7499999999995,
+		"ADP": 2161.4880024999998
 	},
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 850,
+		"Freq": 850,
+		"Slack": "MET",
 		"Area": 1952.630403,
 		"Power": 2.4121,
 		"Delay": 1.18,
 		"Energy": 2846.278,
-		"ADP": 2304.10387554
+		"ADP": 2304.1038755399995
 	},
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 900,
+		"Freq": 900,
+		"Slack": "MET",
 		"Area": 1783.992002,
 		"Power": 2.0174,
 		"Delay": 1.11,
-		"Energy": 2239.314,
+		"Energy": 2239.3140000000003,
 		"ADP": 1980.23112222
 	},
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 950,
+		"Freq": 950,
+		"Slack": "MET",
 		"Area": 1668.038400,
 		"Power": 1.8607,
 		"Delay": 1.05,
@@ -202,7 +222,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 1000,
+		"Freq": 1000,
+		"Slack": "MET",
 		"Area": 2098.924808,
 		"Power": 2.6681,
 		"Delay": 1.00,
@@ -212,7 +233,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 1050,
+		"Freq": 1050,
+		"Slack": "MET",
 		"Area": 2050.238412,
 		"Power": 2.6979,
 		"Delay": 0.95,
@@ -222,7 +244,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 1100,
+		"Freq": 1100,
+		"Slack": "MET",
 		"Area": 2114.918409,
 		"Power": 2.7186,
 		"Delay": 0.91,
@@ -232,7 +255,8 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 1150,
+		"Freq": 1150,
+		"Slack": "MET",
 		"Area": 2060.116811,
 		"Power": 2.6459,
 		"Delay": 0.87,
@@ -242,11 +266,12 @@
 	{
 		"Design": "approx_sqrt",
 		"Bits": 32,
-		"Freq.": 1200,
+		"Freq": 1200,
+		"Slack": "MET",
 		"Area": 2360.702417,
 		"Power": 3.0872,
 		"Delay": 0.83,
 		"Energy": 2562.376,
-		"ADP": 1959.38300611
+		"ADP": 1959.3830061099998
 	}
 ]

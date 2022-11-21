@@ -2,87 +2,96 @@
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 0,
+		"Freq": 0,
+		"Slack": "MET",
 		"Area": 7468.305652,
 		"Power": 14.1893,
 		"Delay": 3.46,
-		"Energy": 49094.978,
-		"ADP": 25840.3375559
+		"Energy": 49094.977999999996,
+		"ADP": 25840.33755592
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 50,
+		"Freq": 50,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7204,
 		"Delay": 3.53,
 		"Energy": 51963.012,
-		"ADP": 26633.7823899
+		"ADP": 26633.782389909997
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 100,
+		"Freq": 100,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7204,
 		"Delay": 3.53,
 		"Energy": 51963.012,
-		"ADP": 26633.7823899
+		"ADP": 26633.782389909997
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 150,
+		"Freq": 150,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7169,
 		"Delay": 3.53,
 		"Energy": 51950.657,
-		"ADP": 26633.7823899
+		"ADP": 26633.782389909997
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 200,
+		"Freq": 200,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7186,
 		"Delay": 3.53,
-		"Energy": 51956.658,
-		"ADP": 26633.7823899
+		"Energy": 51956.657999999996,
+		"ADP": 26633.782389909997
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 250,
+		"Freq": 250,
+		"Slack": "MET",
 		"Area": 7544.980847,
 		"Power": 14.7290,
 		"Delay": 3.53,
-		"Energy": 51993.37,
-		"ADP": 26633.7823899
+		"Energy": 51993.36999999999,
+		"ADP": 26633.782389909997
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 300,
+		"Freq": 300,
+		"Slack": "MET",
 		"Area": 7555.329648,
 		"Power": 13.9037,
 		"Delay": 3.33,
 		"Energy": 46299.321,
-		"ADP": 25159.2477278
+		"ADP": 25159.24772784
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 350,
+		"Freq": 350,
+		"Slack": "MET",
 		"Area": 8145.446484,
 		"Power": 15.1352,
 		"Delay": 2.85,
 		"Energy": 43135.32,
-		"ADP": 23214.5224794
+		"ADP": 23214.522479400002
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 400,
+		"Freq": 400,
+		"Slack": "MET",
 		"Area": 8322.316908,
 		"Power": 15.3901,
 		"Delay": 2.50,
@@ -92,17 +101,19 @@
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 450,
+		"Freq": 450,
+		"Slack": "MET",
 		"Area": 9046.968161,
 		"Power": 17.3583,
 		"Delay": 2.22,
 		"Energy": 38535.426,
-		"ADP": 20084.2693174
+		"ADP": 20084.269317420003
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 500,
+		"Freq": 500,
+		"Slack": "MET",
 		"Area": 10436.059350,
 		"Power": 21.0143,
 		"Delay": 2.00,
@@ -112,17 +123,19 @@
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 550,
+		"Freq": 550,
+		"Slack": "MET",
 		"Area": 11840.438565,
 		"Power": 24.7435,
 		"Delay": 1.82,
-		"Energy": 45033.17,
-		"ADP": 21549.5981883
+		"Energy": 45033.170000000006,
+		"ADP": 21549.598188300002
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 600,
+		"Freq": 600,
+		"Slack": "VIOLATED",
 		"Area": 13266.691355,
 		"Power": 27.2299,
 		"Delay": 1.70,
@@ -132,87 +145,96 @@
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 650,
+		"Freq": 650,
+		"Slack": "VIOLATED",
 		"Area": 12620.596967,
 		"Power": 25.4849,
 		"Delay": 1.72,
 		"Energy": 43834.028,
-		"ADP": 21707.4267832
+		"ADP": 21707.42678324
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 700,
+		"Freq": 700,
+		"Slack": "VIOLATED",
 		"Area": 12552.388968,
 		"Power": 25.5347,
 		"Delay": 1.69,
-		"Energy": 43153.643,
-		"ADP": 21213.5373559
+		"Energy": 43153.643000000004,
+		"ADP": 21213.537355919998
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 750,
+		"Freq": 750,
+		"Slack": "VIOLATED",
 		"Area": 12621.537777,
 		"Power": 25.4200,
 		"Delay": 1.73,
-		"Energy": 43976.6,
-		"ADP": 21835.2603542
+		"Energy": 43976.600000000006,
+		"ADP": 21835.26035421
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 800,
+		"Freq": 800,
+		"Slack": "VIOLATED",
 		"Area": 12427.968171,
 		"Power": 25.0561,
 		"Delay": 1.72,
 		"Energy": 43096.492,
-		"ADP": 21376.1052541
+		"ADP": 21376.10525412
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 850,
+		"Freq": 850,
+		"Slack": "VIOLATED",
 		"Area": 12142.435380,
 		"Power": 24.1923,
 		"Delay": 1.71,
 		"Energy": 41368.833,
-		"ADP": 20763.5644998
+		"ADP": 20763.564499800003
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 900,
+		"Freq": 900,
+		"Slack": "VIOLATED",
 		"Area": 12693.273772,
 		"Power": 25.5597,
 		"Delay": 1.71,
 		"Energy": 43707.087,
-		"ADP": 21705.4981501
+		"ADP": 21705.49815012
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 950,
+		"Freq": 950,
+		"Slack": "VIOLATED",
 		"Area": 12839.803365,
 		"Power": 26.1712,
 		"Delay": 1.71,
-		"Energy": 44752.752,
-		"ADP": 21956.0637542
+		"Energy": 44752.75199999999,
+		"ADP": 21956.06375415
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 1000,
+		"Freq": 1000,
+		"Slack": "VIOLATED",
 		"Area": 13034.078558,
 		"Power": 26.4982,
 		"Delay": 1.69,
-		"Energy": 44781.958,
-		"ADP": 22027.592763
+		"Energy": 44781.958000000006,
+		"ADP": 22027.59276302
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 1050,
+		"Freq": 1050,
+		"Slack": "VIOLATED",
 		"Area": 12787.588978,
 		"Power": 25.8010,
 		"Delay": 1.70,
@@ -222,31 +244,34 @@
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 1100,
+		"Freq": 1100,
+		"Slack": "VIOLATED",
 		"Area": 13167.436956,
 		"Power": 26.8502,
 		"Delay": 1.70,
 		"Energy": 45645.34,
-		"ADP": 22384.6428252
+		"ADP": 22384.642825199997
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 1150,
+		"Freq": 1150,
+		"Slack": "VIOLATED",
 		"Area": 12127.617770,
 		"Power": 24.2415,
 		"Delay": 1.73,
-		"Energy": 41937.795,
+		"Energy": 41937.79499999999,
 		"ADP": 20980.7787421
 	},
 	{
 		"Design": "exact_mul",
 		"Bits": 32,
-		"Freq.": 1200,
+		"Freq": 1200,
+		"Slack": "VIOLATED",
 		"Area": 12880.963378,
 		"Power": 26.1512,
 		"Delay": 1.73,
-		"Energy": 45241.576,
-		"ADP": 22284.0666439
+		"Energy": 45241.575999999994,
+		"ADP": 22284.06664394
 	}
 ]

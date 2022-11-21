@@ -2,17 +2,19 @@
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 0,
+		"Freq": 0,
+		"Slack": "MET",
 		"Area": 10349.740784,
 		"Power": 25.7478,
 		"Delay": 27.61,
 		"Energy": 710896.758,
-		"ADP": 285756.343046
+		"ADP": 285756.34304624
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 50,
+		"Freq": 50,
+		"Slack": "MET",
 		"Area": 12196.060889,
 		"Power": 30.8490,
 		"Delay": 20.00,
@@ -22,197 +24,217 @@
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 100,
+		"Freq": 100,
+		"Slack": "MET",
 		"Area": 17417.736080,
 		"Power": 42.3292,
 		"Delay": 8.59,
 		"Energy": 363607.828,
-		"ADP": 149618.352927
+		"ADP": 149618.3529272
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 150,
+		"Freq": 150,
+		"Slack": "MET",
 		"Area": 18657.475294,
 		"Power": 38.8281,
 		"Delay": 6.66,
 		"Energy": 258595.146,
-		"ADP": 124258.785458
+		"ADP": 124258.78545804
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 200,
+		"Freq": 200,
+		"Slack": "VIOLATED",
 		"Area": 26576.659447,
 		"Power": 63.2516,
 		"Delay": 5.15,
 		"Energy": 325745.74,
-		"ADP": 136869.796152
+		"ADP": 136869.79615205
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 250,
+		"Freq": 250,
+		"Slack": "VIOLATED",
 		"Area": 25147.349027,
 		"Power": 59.1322,
 		"Delay": 5.26,
 		"Energy": 311035.372,
-		"ADP": 132275.055882
+		"ADP": 132275.05588202
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 300,
+		"Freq": 300,
+		"Slack": "VIOLATED",
 		"Area": 23722.977800,
 		"Power": 56.4873,
 		"Delay": 5.40,
-		"Energy": 305031.42,
-		"ADP": 128104.08012
+		"Energy": 305031.42000000004,
+		"ADP": 128104.08012000001
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 350,
+		"Freq": 350,
+		"Slack": "VIOLATED",
 		"Area": 23840.577806,
 		"Power": 56.2500,
 		"Delay": 5.33,
 		"Energy": 299812.5,
-		"ADP": 127070.279706
+		"ADP": 127070.27970598
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 400,
+		"Freq": 400,
+		"Slack": "VIOLATED",
 		"Area": 24391.181003,
 		"Power": 57.6709,
 		"Delay": 5.35,
 		"Energy": 308539.315,
-		"ADP": 130492.818366
+		"ADP": 130492.81836604999
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 450,
+		"Freq": 450,
+		"Slack": "VIOLATED",
 		"Area": 24017.918610,
 		"Power": 56.5216,
 		"Delay": 5.29,
-		"Energy": 298999.264,
-		"ADP": 127054.789447
+		"Energy": 298999.26399999997,
+		"ADP": 127054.7894469
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 500,
+		"Freq": 500,
+		"Slack": "VIOLATED",
 		"Area": 24013.685013,
 		"Power": 57.0119,
 		"Delay": 5.37,
 		"Energy": 306153.903,
-		"ADP": 128953.48852
+		"ADP": 128953.48851981
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 550,
+		"Freq": 550,
+		"Slack": "VIOLATED",
 		"Area": 23838.931419,
 		"Power": 56.2411,
 		"Delay": 5.38,
-		"Energy": 302577.118,
-		"ADP": 128253.451034
+		"Energy": 302577.11799999996,
+		"ADP": 128253.45103422
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 600,
+		"Freq": 600,
+		"Slack": "VIOLATED",
 		"Area": 23930.424208,
 		"Power": 56.3157,
 		"Delay": 5.43,
 		"Energy": 305794.251,
-		"ADP": 129942.203449
+		"ADP": 129942.20344944
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 650,
+		"Freq": 650,
+		"Slack": "VIOLATED",
 		"Area": 22996.209787,
 		"Power": 53.8104,
 		"Delay": 5.49,
 		"Energy": 295419.096,
-		"ADP": 126249.191731
+		"ADP": 126249.19173063
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 700,
+		"Freq": 700,
+		"Slack": "VIOLATED",
 		"Area": 23143.680186,
 		"Power": 53.7386,
 		"Delay": 5.46,
 		"Energy": 293412.756,
-		"ADP": 126364.493816
+		"ADP": 126364.49381556001
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 750,
+		"Freq": 750,
+		"Slack": "VIOLATED",
 		"Area": 22761.950578,
 		"Power": 53.3300,
 		"Delay": 5.54,
 		"Energy": 295448.2,
-		"ADP": 126101.206202
+		"ADP": 126101.20620212
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 800,
+		"Freq": 800,
+		"Slack": "VIOLATED",
 		"Area": 23476.017809,
 		"Power": 55.2200,
 		"Delay": 5.50,
 		"Energy": 303710.0,
-		"ADP": 129118.09795
+		"ADP": 129118.0979495
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 850,
+		"Freq": 850,
+		"Slack": "VIOLATED",
 		"Area": 23217.297790,
 		"Power": 54.3740,
 		"Delay": 5.45,
 		"Energy": 296338.3,
-		"ADP": 126534.272956
+		"ADP": 126534.27295550001
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 900,
+		"Freq": 900,
+		"Slack": "VIOLATED",
 		"Area": 22912.713793,
 		"Power": 53.6235,
 		"Delay": 5.46,
 		"Energy": 292784.31,
-		"ADP": 125103.41731
+		"ADP": 125103.41730978
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 950,
+		"Freq": 950,
+		"Slack": "VIOLATED",
 		"Area": 23302.440190,
 		"Power": 54.5631,
 		"Delay": 5.43,
 		"Energy": 296277.633,
-		"ADP": 126532.250232
+		"ADP": 126532.2502317
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 1000,
+		"Freq": 1000,
+		"Slack": "VIOLATED",
 		"Area": 22853.208179,
 		"Power": 52.8579,
 		"Delay": 5.44,
 		"Energy": 287546.976,
-		"ADP": 124321.452494
+		"ADP": 124321.45249376002
 	},
 	{
 		"Design": "exact_div",
 		"Bits": 32,
-		"Freq.": 1050,
+		"Freq": 1050,
+		"Slack": "1100",
 		"Area": 32,
 		"Power": 32,
 		"Delay": 32,

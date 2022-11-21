@@ -21,5 +21,5 @@ do
     done
 done
 
-# python group_json.py
+python group_json.py
 
