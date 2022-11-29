@@ -17,17 +17,17 @@ def split_df(df_name):
 
 
 if __name__=='__main__':
-    # # Iris dataset
-    # split_df('iris')
+    # Iris dataset
+    split_df('iris')
 
-    # # Wine dataset
-    # split_df('wine')
+    # Wine dataset
+    split_df('wine')
 
-    # # Breast Cancer dataset
-    # split_df('cancer')
-
-    # # Dry Bean dataset
-    # split_df('drybean')
+    # Breast Cancer dataset
+    split_df('cancer')
 
     # Glass dataset
     split_df('glass')
+
+    # Dry Bean dataset
+    split_df('drybean')
