@@ -37,10 +37,15 @@ Posit log_mult(const Posit& lhs, const Posit& rhs) {
 	internal::bitblock<fbits> r1 = a.fraction();
 	internal::bitblock<fbits> r2 = b.fraction();
 	internal::bitblock<fbits + 1> result_fraction;
-	add_unsigned(r1, r2, result_fraction);
+	// Add fractions without hidden bit
+	// add_unsigned(r1, r2, result_fraction);
 	
-	if (result_fraction.test(fbits)) {  // Carry from the fraction
-		new_scale += 1;
+	// if (result_fraction.test(fbits)) {  // Carry from the fraction
+	// 	new_scale += 1; 
+	// }
+	const bool carry = add_unsigned(r1, r2, result_fraction);
+	if (carry) {  // Carry from the fraction
+		new_scale += 1; 
 	}
 	result_fraction <<= static_cast<size_t>(1);    // shift extra addition bit out
 	result.set(new_sign, new_scale, result_fraction, false, false, false);

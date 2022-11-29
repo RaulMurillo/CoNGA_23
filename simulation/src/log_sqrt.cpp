@@ -53,21 +53,29 @@ int main() {
     // std::cout << "      : " << log_sqrt(a, b).get() << std::endl;
 #else
 	/* Exhaustive testbench */
-    // Real max=0.0;
-	Real a=0, exact, approx;
-	for (unsigned long long i=0; i < 1ULL<<N; ++i){
+	Real a=0.0, exact, approx;
+    long double r_err;
+    long double max_e=0.0;
+	for (unsigned long long i=0; i < 1ULL<<(N-1); ++i){
+	// for (unsigned long long i=0; i < 100000; ++i){
+    // while (a <= 4){
         exact = p_sqrt(a);
         approx = log_sqrt(a);
+        r_err = ((long double)(exact) - (long double)(approx))/((long double)(exact));
+        max_e = max_e < r_err ? max_e : r_err;
         // if (exact != approx) 
         // {
-        //     max = max >= abs((exact - approx)/exact) ? max: abs((exact - approx)/exact);
-        //     std::cout << abs((exact - approx)/exact) << std::endl;
+        //     max = (max >= abs((exact - approx)/exact)) ? max: abs((exact - approx)/exact);
+        //     // std::cout << abs((exact - approx)/exact) << std::endl;
         // 	// std::cout << a.get() << " " << exact.get() << " " << approx.get() << std::endl;
         // }
-        std::cout << a.get() << " " << approx.get() << std::endl;
+        // std::cout << a.get() << " " << exact.get() <<  " " << approx.get() << std::endl;
+        // std::cout << std::setprecision(20) << a << " " << exact <<  " " << approx << std::endl;
+        std::cout << std::setprecision(20) << r_err << std::endl;
 		a++;
+        // a += 2*1e-5;
 	}
-    // std::cout << "\n*****\n" << max << "\n";
+    std::cout << "\n*****\n" << max_e << "\n";
 #endif
 
     return 0;
