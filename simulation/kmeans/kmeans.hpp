@@ -1,4 +1,3 @@
-
 #ifndef KMEANS_HPP
 #define KMEANS_HPP
 
@@ -37,8 +36,8 @@ using namespace std;
 #define MULT(a, b) log_mult((a), (b))
 // #define MULT(a, b) ((a) * (b))
 #include "../src/log_div.hpp"
-// #define DIV(a, b) log_div((a), (b))
-#define DIV(a, b) ((a) / (b))
+#define DIV(a, b) log_div((a), (b))
+// #define DIV(a, b) ((a) / (b))
 #include "../src/log_sqrt.hpp"
 // #define SQRT(x) log_sqrt(x)
 #endif // LOG_APPROX
@@ -267,7 +266,7 @@ public:
 			bool done = true;
 
 // Add all points to their nearest cluster
-#pragma omp parallel for reduction(&&: done) num_threads(16)
+#pragma omp parallel for reduction(&&: done) num_threads(8)
 			for (int i = 0; i < total_points; i++)
 			{
 				int currentClusterId = all_points[i].getCluster();
@@ -300,16 +299,22 @@ public:
 					Real_t sum = 0.0;
 					if (ClusterSize > 0)
 					{
-#pragma omp parallel for reduction(+: sum) num_threads(16)
+#ifndef USE_Posit
+#pragma omp parallel for reduction(+: sum) num_threads(8)
+#endif
 						for (int p = 0; p < ClusterSize; p++)
 						{
 							sum += clusters[i].getPoint(p).getVal(j);
 						}
 						// clusters[i].setCentroidByPos(j, sum / ClusterSize);
 						clusters[i].setCentroidByPos(j, DIV(sum, (Real_t)ClusterSize));
+						///////////////////
+						cout << " " <<  i << " - " <<  sum << " " <<  ClusterSize << " " <<  clusters[i].getCentroidByPos(j) << endl;
 					}
 				}
 			}
+			///////////////////
+			// exit(1);
 
 			if (done || iter >= iters)
 			{
