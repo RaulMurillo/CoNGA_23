@@ -1,5 +1,9 @@
 .vscode/
 
+# Data sets
+*train.data
+*test.data
+
 # Testbench files
 test.input
 output_test.txt

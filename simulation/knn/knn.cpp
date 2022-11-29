@@ -6,7 +6,7 @@ using namespace std;
 
 
 #ifndef USE_Posit
-#define Real_t double
+#define Real_t float
 #else
 #define Real_t posit<32, 2>
 #endif // USE_Posit
@@ -16,28 +16,48 @@ using namespace std;
 
 // #define IRIS_DATA
 // #define WINE_DATA
-#define CANCER_DATA
+// #define CANCER_DATA
+// #define BEAN_DATA
+#define GLASS_DATA
+
+void init_msg()
+{
+	cout << "Using " << TXT_EXACT << " " << TXT_FMT << " format" << endl;
+}
 
 int main(int argc, char **argv){
+  init_msg();
 
 #ifdef IRIS_DATA
-  int attr = 5; //number of attribute
-  string path_dataset = "./dataset/iris.data";
-  int num_data = 147; //number of data
+  int attr = 4+1; //number of attribute
+  string path_dataset = "./dataset/iris_train.data";
+  int num_data = 105; //number of data
   string path_data_test = "./dataset/iris_test.data";
-  int num_data_test = 4; //number of data test
+  int num_data_test = 45; //number of data test
 #elif defined(WINE_DATA)
-  int attr = 14; //number of attribute
-  string path_dataset = "./dataset/wine.data";
-  int num_data = 172; //number of data
+  int attr = 13+1; //number of attribute
+  string path_dataset = "./dataset/wine_train.data";
+  int num_data = 125; //number of data
   string path_data_test = "./dataset/wine_test.data";
-  int num_data_test = 6; //number of data test
+  int num_data_test = 53; //number of data test
 #elif defined(CANCER_DATA)
-  int attr = 32; //number of attribute
-  string path_dataset = "./dataset/cancer.data";
-  int num_data = 563; //number of data
+  int attr = 30+1; //number of attribute
+  string path_dataset = "./dataset/cancer_train.data";
+  int num_data = 398; //number of data
   string path_data_test = "./dataset/cancer_test.data";
-  int num_data_test = 6; //number of data test
+  int num_data_test = 171; //number of data test
+#elif defined(BEAN_DATA)
+  int attr = 16+1; //number of attribute
+  string path_dataset = "./dataset/drybean_train.data";
+  int num_data = 9528; //number of data
+  string path_data_test = "./dataset/drybean_test.data";
+  int num_data_test = 4083; //number of data test
+#elif defined(GLASS_DATA)
+  int attr = 9+1; //number of attribute
+  string path_dataset = "./dataset/glass_train.data";
+  int num_data = 150; //number of data
+  string path_data_test = "./dataset/glass_test.data";
+  int num_data_test = 64; //number of data test
 #endif
 
   vector<vector<Real_t> > feature;
@@ -48,16 +68,20 @@ int main(int argc, char **argv){
   load_data(&feature, &classes, &path_dataset, attr, num_data); //Load Dataset Training
   load_data(&feature_test, &classes_test, &path_data_test, attr, num_data_test); //Load Dataset testing
 
-  int k = 5; // K
+  const int k = 5; // K
   kNN<Real_t> knn(k);
   knn.fit(feature,classes); // Train model
   // Check test data
+  int acc = 0;
   for(int i=0; i<feature_test.size(); i++) {
-	string prediction = knn.predict(feature_test[i]);
-	cout << "Class: " << classes_test[i] << endl;
-	cout << "Prediction: " << prediction << endl;
-	cout << "Score: " << knn.score() << "\n\n";
+    string prediction = knn.predict(feature_test[i]);
+    cout << "Class: " << classes_test[i] << endl;
+    cout << "Prediction: " << prediction << endl;
+    cout << "Score: " << knn.score() << "\n\n";
+    acc += classes_test[i] == prediction;
   }
+  cout << "Accuracy: " << acc << "/" << feature_test.size() << " = " << 100*(double)(acc)/feature_test.size() << "%\n\n";
+  init_msg();
 
   return 0;
 }
