@@ -1,13 +1,28 @@
 # Example of usage
 
-cmake -DUSE_Posit=OFF .
-make
-./blur
-
-cmake -DUSE_Posit=ON -DLOG_APPROX=OFF .
-make
-./blur
-
-cmake -DUSE_Posit=ON -DLOG_APPROX=ON .
-make
-./blur
+Create a building folder
+```
+mkdir build
+cd build
+```
+and from there, build the project with any of the following configurations (default options yield to standard float configuration):
+* Standard floating-point:
+    ```
+    cmake -DUSE_Posit=OFF ..
+    make
+    ./blur
+    ```
+* Standard posit:
+    ```
+    cmake -DUSE_Posit=ON -DLOG_APPROX=OFF ..
+    make
+    ./blur
+    ```
+* Approximate posit:
+    ```
+    cmake -DUSE_Posit=ON -DLOG_APPROX=ON ..
+    make
+    ./blur
+    ```
+    
+Results will be shown in the [`/imgs`](./imgs) folder.

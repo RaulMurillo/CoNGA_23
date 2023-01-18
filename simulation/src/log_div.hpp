@@ -38,12 +38,10 @@ Posit log_div(const Posit& lhs, const Posit& rhs) {
 	internal::bitblock<fbits> r1 = a.fraction();
 	internal::bitblock<fbits> r2 = b.fraction();
 	internal::bitblock<fbits + 1> result_fraction;
-	subtract_unsigned(r1, r2, result_fraction);
-	// std::cout << r1 << " - " << r2 << " = " << result_fraction << std::endl;
-
-	
-	if (result_fraction.test(fbits)) {  // Carry from the fraction
-		new_scale -= 1;
+	// Subtract fractions without hidden bit
+	const bool borrow = subtract_unsigned(r1, r2, result_fraction);	// Return true if there is a borrow generated.
+	if (borrow) {  // Borrow from the fraction
+		new_scale -= 1; 
 	}
 	result_fraction <<= static_cast<size_t>(1);    // shift extra addition bit out
 	// std::cout << "New Fraction: " << result_fraction << std::endl;

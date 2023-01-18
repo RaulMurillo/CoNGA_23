@@ -21,5 +21,5 @@ else()
 endif()
 
 # Sources
-add_executable(knn ${CMAKE_CURRENT_LIST_DIR}/knn.cpp)
+add_executable(knn ${SRC_FOLDER}/knn.cpp)
 set_property(TARGET knn PROPERTY CXX_STANDARD 17)

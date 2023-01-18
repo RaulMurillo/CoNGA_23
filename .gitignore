@@ -33,3 +33,6 @@ ENTI/
 *.syn
 *.svf
 *.mr
+
+# Other
+__*/

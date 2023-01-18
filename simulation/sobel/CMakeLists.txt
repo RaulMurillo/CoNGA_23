@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(example)
 
 # Set source and include folder ###########################################
-# set(SRC_FOLDER "${CMAKE_CURRENT_LIST_DIR}/src")
+set(SRC_FOLDER "${CMAKE_CURRENT_LIST_DIR}/src")
 
 # Include universal (posits) ##############################################
 include_directories("~/Documents/libs/universal/include")
@@ -23,5 +23,5 @@ if(USE_Posit)
 endif()
 
 # Sources
-add_executable(sobel ${CMAKE_CURRENT_LIST_DIR}/sobel_testbench.cpp ${CMAKE_CURRENT_LIST_DIR}/loadpng.cpp)
+add_executable(sobel ${SRC_FOLDER}/sobel_testbench.cpp ${SRC_FOLDER}/loadpng.cpp)
 set_property(TARGET sobel PROPERTY CXX_STANDARD 17)

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(example)
 
 # Set source and include folder ###########################################
-# set(SRC_FOLDER "${CMAKE_CURRENT_LIST_DIR}/src")
+set(SRC_FOLDER "${CMAKE_CURRENT_LIST_DIR}/src")
 
 # Include universal (posits) ##############################################
 include_directories("~/Documents/libs/universal/include")
@@ -23,5 +23,5 @@ if(USE_Posit)
 endif()
 
 # Sources
-add_executable(blur ${CMAKE_CURRENT_LIST_DIR}/blur.cpp ${CMAKE_CURRENT_LIST_DIR}/loadpng.cpp)
+add_executable(blur ${SRC_FOLDER}/blur.cpp ${SRC_FOLDER}/loadpng.cpp)
 set_property(TARGET blur PROPERTY CXX_STANDARD 17)
